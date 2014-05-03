@@ -1,0 +1,1503 @@
+[
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 4.09105905114854E-4,
+            "scoreError" : 7.395015121162349E-6,
+            "scoreConfidence" : [
+                4.0171088999369165E-4,
+                4.1650092023601634E-4
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.6899999999999997E-4,
+                "50.0" : 3.8899999999999997E-4,
+                "90.0" : 4.0899999999999997E-4,
+                "95.0" : 4.23E-4,
+                "99.0" : 4.95E-4,
+                "99.9" : 0.0014542320000012405,
+                "99.99" : 0.007704,
+                "99.999" : 0.4691591065586209,
+                "99.9999" : 0.5908479999999999,
+                "100.0" : 0.5908479999999999
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    4.1014134213735294E-4,
+                    4.152806220558812E-4,
+                    3.9927675729421535E-4
+                ],
+                [
+                    4.0879337186748837E-4,
+                    4.147001122667564E-4,
+                    4.0644528182679694E-4
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 0.02780684340989784,
+            "scoreError" : 3.013286898821303E-5,
+            "scoreConfidence" : [
+                0.027776710540909626,
+                0.027836976278886053
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.025408,
+                "50.0" : 0.026848,
+                "90.0" : 0.028319999999999998,
+                "95.0" : 0.0288,
+                "99.0" : 0.035456,
+                "99.9" : 0.044607999999999995,
+                "99.99" : 0.5252732927999496,
+                "99.999" : 0.6250379878396988,
+                "99.9999" : 1.0397857525525094,
+                "100.0" : 1.114112
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.02775280951323173,
+                    0.027830219267918607,
+                    0.027781918409405998
+                ],
+                [
+                    0.02766190807464415,
+                    0.027828885383518243,
+                    0.027985807686471898
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 3.0366619553604592,
+            "scoreError" : 0.0011863731461605478,
+            "scoreConfidence" : [
+                3.0354755822142985,
+                3.03784832850662
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.973696,
+                "50.0" : 3.026944,
+                "90.0" : 3.084288,
+                "95.0" : 3.0965759999999998,
+                "99.0" : 3.1744,
+                "99.9" : 3.8073794560000898,
+                "99.99" : 4.821300019199729,
+                "99.999" : 5.054463999999999,
+                "99.9999" : 5.054463999999999,
+                "100.0" : 5.054463999999999
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    3.0441924615072113,
+                    3.032058406635646,
+                    3.0364294300182286
+                ],
+                [
+                    3.0339876275303665,
+                    3.0379419343331993,
+                    3.0353914815714873
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "2500"
+        },
+        "primaryMetric" : {
+            "score" : 18.68574439218946,
+            "scoreError" : 0.01954852682585904,
+            "scoreConfidence" : [
+                18.6661958653636,
+                18.705292919015317
+            ],
+            "scorePercentiles" : {
+                "0.0" : 18.120704,
+                "50.0" : 18.67776,
+                "90.0" : 19.070975999999998,
+                "95.0" : 19.398656,
+                "99.0" : 20.217855999999998,
+                "99.9" : 20.975124480000076,
+                "99.99" : 23.887871999999998,
+                "99.999" : 23.887871999999998,
+                "99.9999" : 23.887871999999998,
+                "100.0" : 23.887871999999998
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    19.197432788732396,
+                    18.909945866330393,
+                    18.833984321608046
+                ],
+                [
+                    18.393824274846626,
+                    18.394789222085887,
+                    18.415012167076164
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 75.00218995008319,
+            "scoreError" : 0.07929385147472061,
+            "scoreConfidence" : [
+                74.92289609860848,
+                75.08148380155791
+            ],
+            "scorePercentiles" : {
+                "0.0" : 73.92460799999999,
+                "50.0" : 74.842112,
+                "90.0" : 75.62854399999999,
+                "95.0" : 76.02176,
+                "99.0" : 77.070336,
+                "99.9" : 93.32536115200043,
+                "99.99" : 96.73113599999999,
+                "99.999" : 96.73113599999999,
+                "99.9999" : 96.73113599999999,
+                "100.0" : 96.73113599999999
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    75.22942975999999,
+                    75.11080959999998,
+                    74.82254901492536
+                ],
+                [
+                    74.70191060696517,
+                    75.06362368,
+                    75.08721664000001
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "10000"
+        },
+        "primaryMetric" : {
+            "score" : 266.52763022222223,
+            "scoreError" : 0.20253735529316866,
+            "scoreConfidence" : [
+                266.3250928669291,
+                266.7301675775154
+            ],
+            "scorePercentiles" : {
+                "0.0" : 264.76544,
+                "50.0" : 266.338304,
+                "90.0" : 268.0946688,
+                "95.0" : 268.435456,
+                "99.0" : 271.35574016,
+                "99.9" : 272.10547199999996,
+                "99.99" : 272.10547199999996,
+                "99.999" : 272.10547199999996,
+                "99.9999" : 272.10547199999996,
+                "100.0" : 272.10547199999996
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    266.43948238596494,
+                    266.5590568421053,
+                    266.7108244210526
+                ],
+                [
+                    266.41188828070176,
+                    266.41188828070176,
+                    266.63264112280706
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "15000"
+        },
+        "primaryMetric" : {
+            "score" : 604.075724130719,
+            "scoreError" : 3.462772309318084,
+            "scoreConfidence" : [
+                600.6129518214009,
+                607.5384964400371
+            ],
+            "scorePercentiles" : {
+                "0.0" : 587.20256,
+                "50.0" : 600.8340479999999,
+                "90.0" : 617.611264,
+                "95.0" : 620.3375616,
+                "99.0" : 623.9027199999999,
+                "99.9" : 623.9027199999999,
+                "99.99" : 623.9027199999999,
+                "99.999" : 623.9027199999999,
+                "99.9999" : 623.9027199999999,
+                "100.0" : 623.9027199999999
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    589.6223507692307,
+                    591.4775236923077,
+                    594.7039113846154
+                ],
+                [
+                    617.3596057599999,
+                    616.6465740799999,
+                    616.10131456
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "20000"
+        },
+        "primaryMetric" : {
+            "score" : 1044.6962687999999,
+            "scoreError" : 1.8992496446176872,
+            "scoreConfidence" : [
+                1042.7970191553823,
+                1046.5955184446175
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1034.944512,
+                "50.0" : 1045.430272,
+                "90.0" : 1049.624576,
+                "95.0" : 1052.1935872,
+                "99.0" : 1070.596096,
+                "99.9" : 1070.596096,
+                "99.99" : 1070.596096,
+                "99.999" : 1070.596096,
+                "99.9999" : 1070.596096,
+                "100.0" : 1070.596096
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1048.7158101333332,
+                    1047.527424,
+                    1046.4089429333333
+                ],
+                [
+                    1038.9990058666667,
+                    1039.9077717333332,
+                    1046.6186581333334
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "25000"
+        },
+        "primaryMetric" : {
+            "score" : 1654.6897201403508,
+            "scoreError" : 14.567026467739831,
+            "scoreConfidence" : [
+                1640.122693672611,
+                1669.2567466080907
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1612.7098879999999,
+                "50.0" : 1637.875712,
+                "90.0" : 1692.401664,
+                "95.0" : 1694.498816,
+                "99.0" : 1707.0817279999999,
+                "99.9" : 1707.0817279999999,
+                "99.99" : 1707.0817279999999,
+                "99.999" : 1707.0817279999999,
+                "99.9999" : 1707.0817279999999,
+                "100.0" : 1707.0817279999999
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1616.2750464,
+                    1630.53568,
+                    1630.5356800000002
+                ],
+                [
+                    1682.6149546666666,
+                    1688.6733937777778,
+                    1689.1394275555554
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "DJBX31A",
+            "count" : "30000"
+        },
+        "primaryMetric" : {
+            "score" : 2366.086777904761,
+            "scoreError" : 28.121252382349248,
+            "scoreConfidence" : [
+                2337.965525522412,
+                2394.2080302871104
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2306.8671999999997,
+                "50.0" : 2363.490304,
+                "90.0" : 2427.2437248,
+                "95.0" : 2432.0671744,
+                "99.0" : 2441.0849279999998,
+                "99.9" : 2441.0849279999998,
+                "99.99" : 2441.0849279999998,
+                "99.999" : 2441.0849279999998,
+                "99.9999" : 2441.0849279999998,
+                "100.0" : 2441.0849279999998
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2399.1418880000006,
+                    2424.3077120000003,
+                    2423.7085257142858
+                ],
+                [
+                    2317.652553142857,
+                    2317.652553142857,
+                    2314.0574354285714
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 1.8725985941747412E-4,
+            "scoreError" : 1.8506266774676185E-6,
+            "scoreConfidence" : [
+                1.854092327400065E-4,
+                1.8911048609494173E-4
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.68E-4,
+                "50.0" : 1.8199999999999998E-4,
+                "90.0" : 1.92E-4,
+                "95.0" : 2.1099999999999998E-4,
+                "99.0" : 2.4599999999999996E-4,
+                "99.9" : 3.6899999999999997E-4,
+                "99.99" : 0.0073999999999999995,
+                "99.999" : 0.007575999999999999,
+                "99.9999" : 0.47203756132888797,
+                "100.0" : 0.481792
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.8579228959763773E-4,
+                    1.8647233577256264E-4,
+                    1.8636339015811308E-4
+                ],
+                [
+                    1.9120762864339696E-4,
+                    1.8682549389848664E-4,
+                    1.8690185825532036E-4
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 0.0015489944472662838,
+            "scoreError" : 1.1972544162531558E-5,
+            "scoreConfidence" : [
+                0.0015370219031037523,
+                0.0015609669914288153
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0014219999999999999,
+                "50.0" : 0.0014939999999999999,
+                "90.0" : 0.0015739999999999999,
+                "95.0" : 0.0015999999999999999,
+                "99.0" : 0.0017419999999999998,
+                "99.9" : 0.008735999999999999,
+                "99.99" : 0.009956332799999043,
+                "99.999" : 0.5446719487979412,
+                "99.9999" : 0.587776,
+                "100.0" : 0.587776
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.001529412106024959,
+                    0.0015218306224675348,
+                    0.0015316431285543055
+                ],
+                [
+                    0.0015758743077135327,
+                    0.0015814917141581551,
+                    0.00155561395794503
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 0.02013791939038562,
+            "scoreError" : 3.7422151215767896E-5,
+            "scoreConfidence" : [
+                0.020100497239169852,
+                0.020175341541601388
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.018463999999999998,
+                "50.0" : 0.01952,
+                "90.0" : 0.020576,
+                "95.0" : 0.021216,
+                "99.0" : 0.027424,
+                "99.9" : 0.036095999999999996,
+                "99.99" : 0.530432,
+                "99.999" : 0.6421180416004658,
+                "99.9999" : 2.6516717568969725,
+                "100.0" : 2.80576
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.019934915622398162,
+                    0.019890335397661822,
+                    0.019890972479792636
+                ],
+                [
+                    0.020342428504779353,
+                    0.02042145063929723,
+                    0.020363939184745085
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "2500"
+        },
+        "primaryMetric" : {
+            "score" : 0.03507651471532628,
+            "scoreError" : 1.0357989667616415E-5,
+            "scoreConfidence" : [
+                0.035066156725658666,
+                0.035086872704993895
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.033791999999999996,
+                "50.0" : 0.034432,
+                "90.0" : 0.035904,
+                "95.0" : 0.037056,
+                "99.0" : 0.043455999999999995,
+                "99.9" : 0.051455999999999995,
+                "99.99" : 0.05824,
+                "99.999" : 0.5421032652797699,
+                "99.9999" : 1.2650754252786633,
+                "100.0" : 1.4827519999999998
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.03486732733146512,
+                    0.034895303544487714,
+                    0.0349588624106593
+                ],
+                [
+                    0.03518519271552409,
+                    0.035264822575633466,
+                    0.035292894774280784
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 0.11011075070084966,
+            "scoreError" : 6.071357394149778E-5,
+            "scoreConfidence" : [
+                0.11005003712690817,
+                0.11017146427479116
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.104832,
+                "50.0" : 0.10803199999999999,
+                "90.0" : 0.11379199999999999,
+                "95.0" : 0.11903999999999999,
+                "99.0" : 0.13414399999999999,
+                "99.9" : 0.46592,
+                "99.99" : 0.6454773759999275,
+                "99.999" : 0.7543498751997947,
+                "99.9999" : 1.804288,
+                "100.0" : 1.804288
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.11097091154689251,
+                    0.11113080882243878,
+                    0.11120878254415903
+                ],
+                [
+                    0.10891722021036114,
+                    0.10914741045700214,
+                    0.10934316497373031
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "10000"
+        },
+        "primaryMetric" : {
+            "score" : 0.38346203938126083,
+            "scoreError" : 3.6492672064223307E-4,
+            "scoreConfidence" : [
+                0.3830971126606186,
+                0.3838269661019031
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.354304,
+                "50.0" : 0.374272,
+                "90.0" : 0.398848,
+                "95.0" : 0.413184,
+                "99.0" : 0.454144,
+                "99.9" : 1.056768,
+                "99.99" : 1.2679258111999034,
+                "99.999" : 2.5674943692774774,
+                "99.9999" : 7.8725119999999995,
+                "100.0" : 7.8725119999999995
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.38171025700601213,
+                    0.3839436372393296,
+                    0.3847300672588187
+                ],
+                [
+                    0.38101283857186463,
+                    0.3845417297103124,
+                    0.3848693612737544
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "15000"
+        },
+        "primaryMetric" : {
+            "score" : 0.3267269439732555,
+            "scoreError" : 1.0823089398685073E-4,
+            "scoreConfidence" : [
+                0.32661871307926865,
+                0.3268351748672424
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.31232,
+                "50.0" : 0.323584,
+                "90.0" : 0.34048,
+                "95.0" : 0.35020799999999996,
+                "99.0" : 0.369152,
+                "99.9" : 0.4514862080000043,
+                "99.99" : 0.8780604416000247,
+                "99.999" : 1.0216901324800254,
+                "99.9999" : 1.153024,
+                "100.0" : 1.153024
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.32277098507205476,
+                    0.32402478341153307,
+                    0.323332540260637
+                ],
+                [
+                    0.32991951807653347,
+                    0.3301456468100105,
+                    0.33038129664903
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "20000"
+        },
+        "primaryMetric" : {
+            "score" : 0.8936538257437926,
+            "scoreError" : 0.0012156566276331179,
+            "scoreConfidence" : [
+                0.8924381691161595,
+                0.8948694823714257
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.8099839999999999,
+                "50.0" : 0.8693759999999999,
+                "90.0" : 0.9328639999999999,
+                "95.0" : 0.9564159999999999,
+                "99.0" : 1.560576,
+                "99.9" : 1.975910399999976,
+                "99.99" : 2.821898240000009,
+                "99.999" : 8.732786688016414,
+                "99.9999" : 8.749056,
+                "100.0" : 8.749056
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.8779352495309566,
+                    0.8882807040834471,
+                    0.8923629314758598
+                ],
+                [
+                    0.8938729533134334,
+                    0.901936464075099,
+                    0.9081420776734316
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "25000"
+        },
+        "primaryMetric" : {
+            "score" : 0.5192783709033789,
+            "scoreError" : 2.7013926798207384E-4,
+            "scoreConfidence" : [
+                0.5190082316353969,
+                0.5195485101713609
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.43673599999999996,
+                "50.0" : 0.522752,
+                "90.0" : 0.548864,
+                "95.0" : 0.55808,
+                "99.0" : 0.575488,
+                "99.9" : 0.7193743360000551,
+                "99.99" : 1.187402956799984,
+                "99.999" : 2.1582002585594653,
+                "99.9999" : 2.224128,
+                "100.0" : 2.224128
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.5006864885888996,
+                    0.5225353688247397,
+                    0.5242967040716385
+                ],
+                [
+                    0.5052821172899874,
+                    0.5306091317708704,
+                    0.534048072976055
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Murmur3",
+            "count" : "30000"
+        },
+        "primaryMetric" : {
+            "score" : 1.8991525112425995,
+            "scoreError" : 0.0027748200199945623,
+            "scoreConfidence" : [
+                1.896377691222605,
+                1.9019273312625942
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.67936,
+                "50.0" : 1.8657279999999998,
+                "90.0" : 1.9681279999999999,
+                "95.0" : 2.1463039999999998,
+                "99.0" : 2.82624,
+                "99.9" : 3.4871623680000305,
+                "99.99" : 4.6492532735999825,
+                "99.999" : 7.1761919999999995,
+                "99.9999" : 7.1761919999999995,
+                "100.0" : 7.1761919999999995
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.9192809542131573,
+                    1.90474182706002,
+                    1.8965617489878552
+                ],
+                [
+                    1.9032236164313876,
+                    1.8839871653880036,
+                    1.8875859705326787
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 2.1899728370802744E-4,
+            "scoreError" : 3.283782911640621E-6,
+            "scoreConfidence" : [
+                2.157135007963868E-4,
+                2.2228106661966807E-4
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.9099999999999998E-4,
+                "50.0" : 2.0999999999999998E-4,
+                "90.0" : 2.25E-4,
+                "95.0" : 2.43E-4,
+                "99.0" : 2.86E-4,
+                "99.9" : 4.962430000001332E-4,
+                "99.99" : 0.007448,
+                "99.999" : 0.008026468879993073,
+                "99.9999" : 0.617472,
+                "100.0" : 0.617472
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2.1922241059707471E-4,
+                    2.1607516697508112E-4,
+                    2.2026004709368475E-4
+                ],
+                [
+                    2.211884675234086E-4,
+                    2.1854097213343108E-4,
+                    2.1870539002794313E-4
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 0.0026271445828278434,
+            "scoreError" : 1.291122007568357E-5,
+            "scoreConfidence" : [
+                0.00261423336275216,
+                0.0026400558029035267
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0023,
+                "50.0" : 0.0025399999999999997,
+                "90.0" : 0.002708,
+                "95.0" : 0.002784,
+                "99.0" : 0.0032719999999999997,
+                "99.9" : 0.009936,
+                "99.99" : 0.013339744000002741,
+                "99.999" : 0.5564434943997859,
+                "99.9999" : 0.6290396313593387,
+                "100.0" : 0.62976
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0026565992550727775,
+                    0.0026655247271699157,
+                    0.0026655366570905014
+                ],
+                [
+                    0.0025835932783432798,
+                    0.0026020916017125916,
+                    0.002592633195070768
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 0.02875054031418436,
+            "scoreError" : 3.6636357832993664E-5,
+            "scoreConfidence" : [
+                0.02871390395635137,
+                0.028787176672017353
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.025088,
+                "50.0" : 0.027871999999999997,
+                "90.0" : 0.029855999999999997,
+                "95.0" : 0.031807999999999996,
+                "99.0" : 0.037184,
+                "99.9" : 0.2983193600000143,
+                "99.99" : 0.5724159999999999,
+                "99.999" : 0.7482640588798523,
+                "99.9999" : 1.226712628189802,
+                "100.0" : 1.585152
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.029245682761635958,
+                    0.02937606401854157,
+                    0.02931043604266559
+                ],
+                [
+                    0.02823209928313112,
+                    0.028191278973316795,
+                    0.028210206744972897
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "2500"
+        },
+        "primaryMetric" : {
+            "score" : 0.07967469878219167,
+            "scoreError" : 7.184665852323578E-5,
+            "scoreConfidence" : [
+                0.07960285212366844,
+                0.07974654544071491
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.071296,
+                "50.0" : 0.077184,
+                "90.0" : 0.08243199999999999,
+                "95.0" : 0.087168,
+                "99.0" : 0.097152,
+                "99.9" : 0.525312,
+                "99.99" : 0.708608,
+                "99.999" : 0.9301700915203094,
+                "99.9999" : 1.8237420605278014,
+                "100.0" : 1.835008
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.07900714602971978,
+                    0.07933130721238883,
+                    0.07946593965247381
+                ],
+                [
+                    0.07979559852742948,
+                    0.08022583315032547,
+                    0.08023795270900073
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "5000"
+        },
+        "primaryMetric" : {
+            "score" : 0.1739273132774863,
+            "scoreError" : 1.652566522669717E-4,
+            "scoreConfidence" : [
+                0.17376205662521935,
+                0.17409256992975328
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.161024,
+                "50.0" : 0.169216,
+                "90.0" : 0.180224,
+                "95.0" : 0.190464,
+                "99.0" : 0.205056,
+                "99.9" : 0.7240796160000562,
+                "99.99" : 0.9163421695998907,
+                "99.999" : 1.4915958579187392,
+                "99.9999" : 7.561216,
+                "100.0" : 7.561216
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.1730995189057427,
+                    0.17353837943015987,
+                    0.17376567351672298
+                ],
+                [
+                    0.17407053063500533,
+                    0.1747451133477171,
+                    0.17435463296795378
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "10000"
+        },
+        "primaryMetric" : {
+            "score" : 0.3761955887450053,
+            "scoreError" : 3.6832827917021403E-4,
+            "scoreConfidence" : [
+                0.3758272604658351,
+                0.3765639170241755
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.34764799999999996,
+                "50.0" : 0.366592,
+                "90.0" : 0.390144,
+                "95.0" : 0.40499199999999996,
+                "99.0" : 0.450048,
+                "99.9" : 1.0424258560000361,
+                "99.99" : 1.206679142399907,
+                "99.999" : 2.473206906876564,
+                "99.9999" : 7.593984,
+                "100.0" : 7.593984
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.37468359478856683,
+                    0.3768820360124733,
+                    0.37713569037972755
+                ],
+                [
+                    0.3746232631078883,
+                    0.3773083447216694,
+                    0.37655982270911326
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "15000"
+        },
+        "primaryMetric" : {
+            "score" : 0.670624686275239,
+            "scoreError" : 6.722581739795456E-4,
+            "scoreConfidence" : [
+                0.6699524281012594,
+                0.6712969444492185
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.615424,
+                "50.0" : 0.657408,
+                "90.0" : 0.6963199999999999,
+                "95.0" : 0.708608,
+                "99.0" : 1.1129241600000261,
+                "99.9" : 1.4745599999999999,
+                "99.99" : 1.792207667199731,
+                "99.999" : 6.467345285167456,
+                "99.9999" : 7.954432,
+                "100.0" : 7.954432
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.6670764152674475,
+                    0.6685424925053536,
+                    0.6694639463950681
+                ],
+                [
+                    0.6728562734827728,
+                    0.6727030490640572,
+                    0.6731557254761048
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "20000"
+        },
+        "primaryMetric" : {
+            "score" : 0.8169449874245835,
+            "scoreError" : 9.125669727618865E-4,
+            "scoreConfidence" : [
+                0.8160324204518217,
+                0.8178575543973454
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.753664,
+                "50.0" : 0.801792,
+                "90.0" : 0.847872,
+                "95.0" : 0.8652799999999999,
+                "99.0" : 1.3373439999999999,
+                "99.9" : 1.7408,
+                "99.99" : 2.5720311807996032,
+                "99.999" : 8.33942274049449,
+                "99.9999" : 8.634368,
+                "100.0" : 8.634368
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.8178341820564627,
+                    0.8213763928101715,
+                    0.8238159920853033
+                ],
+                [
+                    0.8095465185105117,
+                    0.8129569713076971,
+                    0.8163056844398464
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "25000"
+        },
+        "primaryMetric" : {
+            "score" : 1.2817492043574974,
+            "scoreError" : 0.0014944071506075422,
+            "scoreConfidence" : [
+                1.2802547972068898,
+                1.283243611508105
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.183744,
+                "50.0" : 1.261568,
+                "90.0" : 1.323008,
+                "95.0" : 1.347584,
+                "99.0" : 1.9968,
+                "99.9" : 2.407903231999993,
+                "99.99" : 3.307661311999142,
+                "99.999" : 5.2428799999999995,
+                "99.9999" : 5.2428799999999995,
+                "100.0" : 5.2428799999999995
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.288134381829131,
+                    1.27842250537451,
+                    1.2820670959794707
+                ],
+                [
+                    1.2790046023746475,
+                    1.2789165768902537,
+                    1.2840100233036327
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+    ,
+    {
+        "benchmark" : "unportant.gist.hashmapcol.HashMapBenchmark.put",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 2,
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "measurementIterations" : 3,
+        "measurementTime" : "15 s",
+        "params" : {
+            "colliderName" : "Random",
+            "count" : "30000"
+        },
+        "primaryMetric" : {
+            "score" : 1.440184987551467,
+            "scoreError" : 0.0019686857211178967,
+            "scoreConfidence" : [
+                1.438216301830349,
+                1.4421536732725848
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.312768,
+                "50.0" : 1.41312,
+                "90.0" : 1.4909439999999998,
+                "95.0" : 1.536,
+                "99.0" : 2.23232,
+                "99.9" : 2.7572797440000176,
+                "99.99" : 4.573654220799804,
+                "99.999" : 9.633792,
+                "99.9999" : 9.633792,
+                "100.0" : 9.633792
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.4456726604229018,
+                    1.4473578365848956,
+                    1.4493944152403042
+                ],
+                [
+                    1.4324752851128963,
+                    1.430581081813842,
+                    1.435858921632496
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

@@ -1,0 +1,2071 @@
+# Run progress: 0.00% complete, ETA 00:48:00
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 10)
+# Warmup Iteration   1: 10
+n = 21121, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 2 ms/op
+# Warmup Iteration   2: n = 11552, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 10670, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 162431, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 162103, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 161944, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 486478
+        mean =      0.000 ±(99.9%) 0.000 ms/op
+         min =      0.000 ms/op
+  p( 0.0000) =      0.000 ms/op
+  p(50.0000) =      0.000 ms/op
+  p(90.0000) =      0.000 ms/op
+  p(95.0000) =      0.000 ms/op
+  p(99.0000) =      0.000 ms/op
+  p(99.9000) =      0.000 ms/op
+  p(99.9900) =      0.007 ms/op
+  p(99.9990) =      0.097 ms/op
+  p(99.9999) =      0.708 ms/op
+         max =      0.708 ms/op
+
+
+# Run progress: 1.67% complete, ETA 00:48:48
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 10)
+# Warmup Iteration   1: 10
+n = 21210, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 2 ms/op
+# Warmup Iteration   2: n = 11501, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 10821, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 161141, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   2: n = 160747, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   3: n = 160926, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+
+Run result : 
+    samples = 482814
+        mean =      0.000 ±(99.9%) 0.000 ms/op
+         min =      0.000 ms/op
+  p( 0.0000) =      0.000 ms/op
+  p(50.0000) =      0.000 ms/op
+  p(90.0000) =      0.000 ms/op
+  p(95.0000) =      0.000 ms/op
+  p(99.0000) =      0.000 ms/op
+  p(99.9000) =      0.000 ms/op
+  p(99.9900) =      0.007 ms/op
+  p(99.9990) =      0.008 ms/op
+  p(99.9999) =      0.016 ms/op
+         max =      0.016 ms/op
+
+
+# Run progress: 3.33% complete, ETA 00:47:57
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 100)
+# Warmup Iteration   1: 100
+n = 28198, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+# Warmup Iteration   2: n = 13028, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 15473, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 229046, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 229277, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 228924, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 687247
+        mean =      0.002 ±(99.9%) 0.000 ms/op
+         min =      0.002 ms/op
+  p( 0.0000) =      0.002 ms/op
+  p(50.0000) =      0.002 ms/op
+  p(90.0000) =      0.002 ms/op
+  p(95.0000) =      0.002 ms/op
+  p(99.0000) =      0.003 ms/op
+  p(99.9000) =      0.009 ms/op
+  p(99.9900) =      0.011 ms/op
+  p(99.9990) =      0.782 ms/op
+  p(99.9999) =      1.100 ms/op
+         max =      1.100 ms/op
+
+
+# Run progress: 5.00% complete, ETA 00:47:08
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 100)
+# Warmup Iteration   1: 100
+n = 27851, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+# Warmup Iteration   2: n = 12872, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 15338, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 227164, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 227484, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 228047, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 682695
+        mean =      0.002 ±(99.9%) 0.000 ms/op
+         min =      0.002 ms/op
+  p( 0.0000) =      0.002 ms/op
+  p(50.0000) =      0.002 ms/op
+  p(90.0000) =      0.002 ms/op
+  p(95.0000) =      0.002 ms/op
+  p(99.0000) =      0.003 ms/op
+  p(99.9000) =      0.009 ms/op
+  p(99.9900) =      0.010 ms/op
+  p(99.9990) =      0.751 ms/op
+  p(99.9999) =      0.799 ms/op
+         max =      0.799 ms/op
+
+
+# Run progress: 6.67% complete, ETA 00:46:18
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 1000)
+# Warmup Iteration   1: 1000
+n = 18933, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 2 ms/op
+# Warmup Iteration   2: n = 10488, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 10778, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   1: n = 161316, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 2 ms/op
+Iteration   2: n = 160748, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   3: n = 160831, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 7 ms/op
+
+Run result : 
+    samples = 482895
+        mean =      0.023 ±(99.9%) 0.000 ms/op
+         min =      0.020 ms/op
+  p( 0.0000) =      0.020 ms/op
+  p(50.0000) =      0.023 ms/op
+  p(90.0000) =      0.024 ms/op
+  p(95.0000) =      0.026 ms/op
+  p(99.0000) =      0.031 ms/op
+  p(99.9000) =      0.038 ms/op
+  p(99.9900) =      0.747 ms/op
+  p(99.9990) =      1.048 ms/op
+  p(99.9999) =      6.750 ms/op
+         max =      6.750 ms/op
+
+
+# Run progress: 8.33% complete, ETA 00:45:28
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 1000)
+# Warmup Iteration   1: 1000
+n = 20627, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 2 ms/op
+# Warmup Iteration   2: n = 11508, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 12116, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 179564, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   2: n = 178661, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   3: n = 178855, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 2 ms/op
+
+Run result : 
+    samples = 537080
+        mean =      0.021 ±(99.9%) 0.000 ms/op
+         min =      0.019 ms/op
+  p( 0.0000) =      0.019 ms/op
+  p(50.0000) =      0.020 ms/op
+  p(90.0000) =      0.022 ms/op
+  p(95.0000) =      0.024 ms/op
+  p(99.0000) =      0.029 ms/op
+  p(99.9000) =      0.036 ms/op
+  p(99.9900) =      0.753 ms/op
+  p(99.9990) =      0.913 ms/op
+  p(99.9999) =      1.595 ms/op
+         max =      1.595 ms/op
+
+
+# Run progress: 10.00% complete, ETA 00:44:39
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 2500)
+# Warmup Iteration   1: 2500
+n = 12605, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 4, 4 ms/op
+# Warmup Iteration   2: n = 14049, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 14509, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 3 ms/op
+Iteration   1: n = 216269, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 2 ms/op
+Iteration   2: n = 215127, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+Iteration   3: n = 215756, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 7 ms/op
+
+Run result : 
+    samples = 647152
+        mean =      0.069 ±(99.9%) 0.000 ms/op
+         min =      0.065 ms/op
+  p( 0.0000) =      0.065 ms/op
+  p(50.0000) =      0.067 ms/op
+  p(90.0000) =      0.072 ms/op
+  p(95.0000) =      0.076 ms/op
+  p(99.0000) =      0.085 ms/op
+  p(99.9000) =      0.114 ms/op
+  p(99.9900) =      0.870 ms/op
+  p(99.9990) =      1.981 ms/op
+  p(99.9999) =      6.881 ms/op
+         max =      6.881 ms/op
+
+
+# Run progress: 11.67% complete, ETA 00:43:49
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 2500)
+# Warmup Iteration   1: 2500
+n = 12760, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 4, 4 ms/op
+# Warmup Iteration   2: n = 14281, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 14250, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   1: n = 218658, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 5 ms/op
+Iteration   2: n = 217289, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 7 ms/op
+Iteration   3: n = 216834, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+
+Run result : 
+    samples = 652781
+        mean =      0.069 ±(99.9%) 0.000 ms/op
+         min =      0.064 ms/op
+  p( 0.0000) =      0.064 ms/op
+  p(50.0000) =      0.067 ms/op
+  p(90.0000) =      0.072 ms/op
+  p(95.0000) =      0.076 ms/op
+  p(99.0000) =      0.085 ms/op
+  p(99.9000) =      0.117 ms/op
+  p(99.9900) =      0.886 ms/op
+  p(99.9990) =      4.058 ms/op
+  p(99.9999) =      7.381 ms/op
+         max =      7.381 ms/op
+
+
+# Run progress: 13.33% complete, ETA 00:42:59
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 5000)
+# Warmup Iteration   1: 5000
+n = 5830, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 2, 8, 8 ms/op
+# Warmup Iteration   2: n = 6326, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 6574, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+Iteration   1: n = 98823, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+Iteration   2: n = 98652, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+Iteration   3: n = 98454, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+
+Run result : 
+    samples = 295929
+        mean =      0.152 ±(99.9%) 0.000 ms/op
+         min =      0.142 ms/op
+  p( 0.0000) =      0.142 ms/op
+  p(50.0000) =      0.148 ms/op
+  p(90.0000) =      0.158 ms/op
+  p(95.0000) =      0.167 ms/op
+  p(99.0000) =      0.177 ms/op
+  p(99.9000) =      0.870 ms/op
+  p(99.9900) =      1.094 ms/op
+  p(99.9990) =      4.944 ms/op
+  p(99.9999) =      5.226 ms/op
+         max =      5.226 ms/op
+
+
+# Run progress: 15.00% complete, ETA 00:42:10
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 5000)
+# Warmup Iteration   1: 5000
+n = 5899, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 2, 7, 7 ms/op
+# Warmup Iteration   2: n = 6447, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+# Warmup Iteration   3: n = 6628, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+Iteration   1: n = 98631, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 6 ms/op
+Iteration   2: n = 98330, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 6 ms/op
+Iteration   3: n = 98322, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+
+Run result : 
+    samples = 295283
+        mean =      0.152 ±(99.9%) 0.000 ms/op
+         min =      0.142 ms/op
+  p( 0.0000) =      0.142 ms/op
+  p(50.0000) =      0.148 ms/op
+  p(90.0000) =      0.158 ms/op
+  p(95.0000) =      0.167 ms/op
+  p(99.0000) =      0.177 ms/op
+  p(99.9000) =      0.875 ms/op
+  p(99.9900) =      1.053 ms/op
+  p(99.9990) =      5.292 ms/op
+  p(99.9999) =      5.980 ms/op
+         max =      5.980 ms/op
+
+
+# Run progress: 16.67% complete, ETA 00:41:20
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 10000)
+# Warmup Iteration   1: 10000
+n = 2824, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 4, 15, 15 ms/op
+# Warmup Iteration   2: n = 3026, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 4, 4 ms/op
+# Warmup Iteration   3: n = 3060, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 1, 1 ms/op
+Iteration   1: n = 44780, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+Iteration   2: n = 44186, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 3, 5 ms/op
+Iteration   3: n = 43931, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 8 ms/op
+
+Run result : 
+    samples = 132897
+        mean =      0.338 ±(99.9%) 0.001 ms/op
+         min =      0.298 ms/op
+  p( 0.0000) =      0.298 ms/op
+  p(50.0000) =      0.331 ms/op
+  p(90.0000) =      0.353 ms/op
+  p(95.0000) =      0.365 ms/op
+  p(99.0000) =      0.387 ms/op
+  p(99.9000) =      1.202 ms/op
+  p(99.9900) =      1.974 ms/op
+  p(99.9990) =      7.297 ms/op
+  p(99.9999) =      8.364 ms/op
+         max =      8.364 ms/op
+
+
+# Run progress: 18.33% complete, ETA 00:40:31
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 10000)
+# Warmup Iteration   1: 10000
+n = 2846, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 5, 14, 14 ms/op
+# Warmup Iteration   2: n = 3070, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 4, 4 ms/op
+# Warmup Iteration   3: n = 3093, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 1, 1 ms/op
+Iteration   1: n = 45080, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 3, 6 ms/op
+Iteration   2: n = 44483, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 7 ms/op
+Iteration   3: n = 44140, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 5 ms/op
+
+Run result : 
+    samples = 133703
+        mean =      0.336 ±(99.9%) 0.001 ms/op
+         min =      0.296 ms/op
+  p( 0.0000) =      0.296 ms/op
+  p(50.0000) =      0.329 ms/op
+  p(90.0000) =      0.351 ms/op
+  p(95.0000) =      0.362 ms/op
+  p(99.0000) =      0.385 ms/op
+  p(99.9000) =      1.200 ms/op
+  p(99.9900) =      1.429 ms/op
+  p(99.9990) =      6.846 ms/op
+  p(99.9999) =      7.037 ms/op
+         max =      7.037 ms/op
+
+
+# Run progress: 20.00% complete, ETA 00:39:41
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 15000)
+# Warmup Iteration   1: 15000
+n = 1443, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 15, 18, 18 ms/op
+# Warmup Iteration   2: n = 1554, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 1541, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 2, 2 ms/op
+Iteration   1: n = 24061, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   2: n = 24019, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 6 ms/op
+Iteration   3: n = 24012, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 4, 6 ms/op
+
+Run result : 
+    samples = 72092
+        mean =      0.623 ±(99.9%) 0.001 ms/op
+         min =      0.573 ms/op
+  p( 0.0000) =      0.573 ms/op
+  p(50.0000) =      0.609 ms/op
+  p(90.0000) =      0.650 ms/op
+  p(95.0000) =      0.662 ms/op
+  p(99.0000) =      0.752 ms/op
+  p(99.9000) =      1.622 ms/op
+  p(99.9900) =      2.050 ms/op
+  p(99.9990) =      5.767 ms/op
+  p(99.9999) =      5.767 ms/op
+         max =      5.767 ms/op
+
+
+# Run progress: 21.67% complete, ETA 00:38:52
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 15000)
+# Warmup Iteration   1: 15000
+n = 1459, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 14, 17, 17 ms/op
+# Warmup Iteration   2: n = 1612, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 1598, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 1, 1 ms/op
+Iteration   1: n = 24768, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 6 ms/op
+Iteration   2: n = 24637, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 4 ms/op
+Iteration   3: n = 24490, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 6 ms/op
+
+Run result : 
+    samples = 73895
+        mean =      0.608 ±(99.9%) 0.001 ms/op
+         min =      0.569 ms/op
+  p( 0.0000) =      0.569 ms/op
+  p(50.0000) =      0.595 ms/op
+  p(90.0000) =      0.634 ms/op
+  p(95.0000) =      0.645 ms/op
+  p(99.0000) =      0.711 ms/op
+  p(99.9000) =      1.624 ms/op
+  p(99.9900) =      3.023 ms/op
+  p(99.9990) =      6.472 ms/op
+  p(99.9999) =      6.472 ms/op
+         max =      6.472 ms/op
+
+
+# Run progress: 23.33% complete, ETA 00:38:02
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 20000)
+# Warmup Iteration   1: 20000
+n = 1207, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 17, 19, 19 ms/op
+# Warmup Iteration   2: n = 1345, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 1324, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   1: n = 20679, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 5, 7 ms/op
+Iteration   2: n = 20575, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 6, 9 ms/op
+Iteration   3: n = 20552, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 5 ms/op
+
+Run result : 
+    samples = 61806
+        mean =      0.727 ±(99.9%) 0.001 ms/op
+         min =      0.684 ms/op
+  p( 0.0000) =      0.684 ms/op
+  p(50.0000) =      0.713 ms/op
+  p(90.0000) =      0.756 ms/op
+  p(95.0000) =      0.767 ms/op
+  p(99.0000) =      0.906 ms/op
+  p(99.9000) =      1.862 ms/op
+  p(99.9900) =      4.591 ms/op
+  p(99.9990) =      8.700 ms/op
+  p(99.9999) =      8.700 ms/op
+         max =      8.700 ms/op
+
+
+# Run progress: 25.00% complete, ETA 00:37:13
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 20000)
+# Warmup Iteration   1: 20000
+n = 1222, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 17, 19, 19 ms/op
+# Warmup Iteration   2: n = 1344, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 1336, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   1: n = 20825, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 5 ms/op
+Iteration   2: n = 20725, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 5, 6 ms/op
+Iteration   3: n = 20734, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 7 ms/op
+
+Run result : 
+    samples = 62284
+        mean =      0.722 ±(99.9%) 0.001 ms/op
+         min =      0.679 ms/op
+  p( 0.0000) =      0.679 ms/op
+  p(50.0000) =      0.707 ms/op
+  p(90.0000) =      0.750 ms/op
+  p(95.0000) =      0.762 ms/op
+  p(99.0000) =      0.956 ms/op
+  p(99.9000) =      1.853 ms/op
+  p(99.9900) =      3.875 ms/op
+  p(99.9990) =      7.029 ms/op
+  p(99.9999) =      7.029 ms/op
+         max =      7.029 ms/op
+
+
+# Run progress: 26.67% complete, ETA 00:36:23
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 25000)
+# Warmup Iteration   1: 25000
+n = 725, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 6, 21, 21, 21 ms/op
+# Warmup Iteration   2: n = 797, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 800, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 3, 3, 3 ms/op
+Iteration   1: n = 12611, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 2, 5, 5 ms/op
+Iteration   2: n = 12518, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 8, 9 ms/op
+Iteration   3: n = 12459, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 4, 4 ms/op
+
+Run result : 
+    samples = 37588
+        mean =      1.196 ±(99.9%) 0.002 ms/op
+         min =      1.096 ms/op
+  p( 0.0000) =      1.096 ms/op
+  p(50.0000) =      1.169 ms/op
+  p(90.0000) =      1.247 ms/op
+  p(95.0000) =      1.294 ms/op
+  p(99.0000) =      2.056 ms/op
+  p(99.9000) =      2.496 ms/op
+  p(99.9900) =      4.794 ms/op
+  p(99.9990) =      8.700 ms/op
+  p(99.9999) =      8.700 ms/op
+         max =      8.700 ms/op
+
+
+# Run progress: 28.33% complete, ETA 00:35:34
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 25000)
+# Warmup Iteration   1: 25000
+n = 704, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 6, 21, 21, 21 ms/op
+# Warmup Iteration   2: n = 765, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 770, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 3, 3, 3 ms/op
+Iteration   1: n = 12062, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 6, 6 ms/op
+Iteration   2: n = 12170, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+Iteration   3: n = 12142, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 7, 8 ms/op
+
+Run result : 
+    samples = 36374
+        mean =      1.236 ±(99.9%) 0.003 ms/op
+         min =      1.116 ms/op
+  p( 0.0000) =      1.116 ms/op
+  p(50.0000) =      1.212 ms/op
+  p(90.0000) =      1.282 ms/op
+  p(95.0000) =      1.313 ms/op
+  p(99.0000) =      2.118 ms/op
+  p(99.9000) =      2.579 ms/op
+  p(99.9900) =      5.222 ms/op
+  p(99.9990) =      7.971 ms/op
+  p(99.9999) =      7.971 ms/op
+         max =      7.971 ms/op
+
+
+# Run progress: 30.00% complete, ETA 00:34:44
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 30000)
+# Warmup Iteration   1: 30000
+n = 659, mean = 2 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 6, 23, 23, 23 ms/op
+# Warmup Iteration   2: n = 736, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 757, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 2, 2, 2 ms/op
+Iteration   1: n = 11740, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+Iteration   2: n = 11684, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 4, 4 ms/op
+Iteration   3: n = 11706, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+
+Run result : 
+    samples = 35130
+        mean =      1.279 ±(99.9%) 0.003 ms/op
+         min =      1.184 ms/op
+  p( 0.0000) =      1.184 ms/op
+  p(50.0000) =      1.251 ms/op
+  p(90.0000) =      1.327 ms/op
+  p(95.0000) =      1.356 ms/op
+  p(99.0000) =      2.163 ms/op
+  p(99.9000) =      2.751 ms/op
+  p(99.9900) =      4.501 ms/op
+  p(99.9990) =      4.850 ms/op
+  p(99.9999) =      4.850 ms/op
+         max =      4.850 ms/op
+
+
+# Run progress: 31.67% complete, ETA 00:33:54
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = DJBX31A, count = 30000)
+# Warmup Iteration   1: 30000
+n = 635, mean = 2 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 6, 23, 23, 23 ms/op
+# Warmup Iteration   2: n = 698, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 711, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 2, 2, 2 ms/op
+Iteration   1: n = 11007, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+Iteration   2: n = 11140, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 4, 4 ms/op
+Iteration   3: n = 11028, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 3, 3 ms/op
+
+Run result : 
+    samples = 33175
+        mean =      1.354 ±(99.9%) 0.003 ms/op
+         min =      1.214 ms/op
+  p( 0.0000) =      1.214 ms/op
+  p(50.0000) =      1.329 ms/op
+  p(90.0000) =      1.417 ms/op
+  p(95.0000) =      1.452 ms/op
+  p(99.0000) =      2.310 ms/op
+  p(99.9000) =      2.750 ms/op
+  p(99.9900) =      3.505 ms/op
+  p(99.9990) =      5.382 ms/op
+  p(99.9999) =      5.382 ms/op
+         max =      5.382 ms/op
+
+
+# Run progress: 33.33% complete, ETA 00:33:05
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 10)
+# Warmup Iteration   1: 10
+n = 27991, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 4 ms/op
+# Warmup Iteration   2: n = 14657, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 14791, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 221306, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 220454, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 220853, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+
+Run result : 
+    samples = 662613
+        mean =      0.000 ±(99.9%) 0.000 ms/op
+         min =      0.000 ms/op
+  p( 0.0000) =      0.000 ms/op
+  p(50.0000) =      0.000 ms/op
+  p(90.0000) =      0.000 ms/op
+  p(95.0000) =      0.000 ms/op
+  p(99.0000) =      0.000 ms/op
+  p(99.9000) =      0.000 ms/op
+  p(99.9900) =      0.008 ms/op
+  p(99.9990) =      0.008 ms/op
+  p(99.9999) =      0.757 ms/op
+         max =      0.757 ms/op
+
+
+# Run progress: 35.00% complete, ETA 00:32:15
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 10)
+# Warmup Iteration   1: 10
+n = 27714, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 4 ms/op
+# Warmup Iteration   2: n = 14568, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 14360, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 221976, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   2: n = 220694, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   3: n = 219938, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+
+Run result : 
+    samples = 662608
+        mean =      0.000 ±(99.9%) 0.000 ms/op
+         min =      0.000 ms/op
+  p( 0.0000) =      0.000 ms/op
+  p(50.0000) =      0.000 ms/op
+  p(90.0000) =      0.000 ms/op
+  p(95.0000) =      0.000 ms/op
+  p(99.0000) =      0.000 ms/op
+  p(99.9000) =      0.000 ms/op
+  p(99.9900) =      0.008 ms/op
+  p(99.9990) =      0.008 ms/op
+  p(99.9999) =      0.013 ms/op
+         max =      0.013 ms/op
+
+
+# Run progress: 36.67% complete, ETA 00:31:25
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 100)
+# Warmup Iteration   1: 100
+n = 23509, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 4 ms/op
+# Warmup Iteration   2: n = 12784, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 14990, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   1: n = 222729, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 223360, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 223396, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 669485
+        mean =      0.004 ±(99.9%) 0.000 ms/op
+         min =      0.004 ms/op
+  p( 0.0000) =      0.004 ms/op
+  p(50.0000) =      0.004 ms/op
+  p(90.0000) =      0.004 ms/op
+  p(95.0000) =      0.004 ms/op
+  p(99.0000) =      0.005 ms/op
+  p(99.9000) =      0.012 ms/op
+  p(99.9900) =      0.013 ms/op
+  p(99.9990) =      0.754 ms/op
+  p(99.9999) =      0.844 ms/op
+         max =      0.844 ms/op
+
+
+# Run progress: 38.33% complete, ETA 00:30:36
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 100)
+# Warmup Iteration   1: 100
+n = 23388, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 4 ms/op
+# Warmup Iteration   2: n = 12959, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 14936, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   1: n = 225337, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 225182, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 225572, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 676091
+        mean =      0.004 ±(99.9%) 0.000 ms/op
+         min =      0.004 ms/op
+  p( 0.0000) =      0.004 ms/op
+  p(50.0000) =      0.004 ms/op
+  p(90.0000) =      0.004 ms/op
+  p(95.0000) =      0.004 ms/op
+  p(99.0000) =      0.005 ms/op
+  p(99.9000) =      0.012 ms/op
+  p(99.9900) =      0.013 ms/op
+  p(99.9990) =      0.751 ms/op
+  p(99.9999) =      0.793 ms/op
+         max =      0.793 ms/op
+
+
+# Run progress: 40.00% complete, ETA 00:29:46
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 1000)
+# Warmup Iteration   1: 1000
+n = 1368, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 8, 9, 9 ms/op
+# Warmup Iteration   2: n = 1443, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 1, 1 ms/op
+# Warmup Iteration   3: n = 1420, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 1, 1 ms/op
+Iteration   1: n = 21795, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 3, 5 ms/op
+Iteration   2: n = 21834, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 2, 3 ms/op
+Iteration   3: n = 21813, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 2, 3 ms/op
+
+Run result : 
+    samples = 65442
+        mean =      0.687 ±(99.9%) 0.000 ms/op
+         min =      0.667 ms/op
+  p( 0.0000) =      0.667 ms/op
+  p(50.0000) =      0.677 ms/op
+  p(90.0000) =      0.710 ms/op
+  p(95.0000) =      0.719 ms/op
+  p(99.0000) =      0.731 ms/op
+  p(99.9000) =      1.032 ms/op
+  p(99.9900) =      1.630 ms/op
+  p(99.9990) =      4.547 ms/op
+  p(99.9999) =      4.547 ms/op
+         max =      4.547 ms/op
+
+
+# Run progress: 41.67% complete, ETA 00:28:56
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 1000)
+# Warmup Iteration   1: 1000
+n = 1376, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 8, 8, 8 ms/op
+# Warmup Iteration   2: n = 1436, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 1, 1 ms/op
+# Warmup Iteration   3: n = 1437, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 1, 1 ms/op
+Iteration   1: n = 21729, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 4, 4 ms/op
+Iteration   2: n = 21739, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 2, 3 ms/op
+Iteration   3: n = 21797, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 1, 2, 2 ms/op
+
+Run result : 
+    samples = 65265
+        mean =      0.689 ±(99.9%) 0.000 ms/op
+         min =      0.670 ms/op
+  p( 0.0000) =      0.670 ms/op
+  p(50.0000) =      0.679 ms/op
+  p(90.0000) =      0.712 ms/op
+  p(95.0000) =      0.719 ms/op
+  p(99.0000) =      0.729 ms/op
+  p(99.9000) =      0.770 ms/op
+  p(99.9900) =      1.700 ms/op
+  p(99.9990) =      4.481 ms/op
+  p(99.9999) =      4.481 ms/op
+         max =      4.481 ms/op
+
+
+# Run progress: 43.33% complete, ETA 00:28:07
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 2500)
+# Warmup Iteration   1: 2500
+n = 7782, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 8, 8 ms/op
+# Warmup Iteration   2: n = 8321, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 8411, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 127274, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 127273, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 127322, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 381869
+        mean =      0.118 ±(99.9%) 0.000 ms/op
+         min =      0.115 ms/op
+  p( 0.0000) =      0.115 ms/op
+  p(50.0000) =      0.116 ms/op
+  p(90.0000) =      0.120 ms/op
+  p(95.0000) =      0.127 ms/op
+  p(99.0000) =      0.140 ms/op
+  p(99.9000) =      0.153 ms/op
+  p(99.9900) =      0.161 ms/op
+  p(99.9990) =      0.981 ms/op
+  p(99.9999) =      1.128 ms/op
+         max =      1.128 ms/op
+
+
+# Run progress: 45.00% complete, ETA 00:27:17
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 2500)
+# Warmup Iteration   1: 2500
+n = 7792, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 8, 8 ms/op
+# Warmup Iteration   2: n = 8340, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 8337, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 127474, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 127542, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 127642, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 382658
+        mean =      0.117 ±(99.9%) 0.000 ms/op
+         min =      0.115 ms/op
+  p( 0.0000) =      0.115 ms/op
+  p(50.0000) =      0.115 ms/op
+  p(90.0000) =      0.120 ms/op
+  p(95.0000) =      0.127 ms/op
+  p(99.0000) =      0.141 ms/op
+  p(99.9000) =      0.155 ms/op
+  p(99.9900) =      0.162 ms/op
+  p(99.9990) =      0.869 ms/op
+  p(99.9999) =      1.034 ms/op
+         max =      1.034 ms/op
+
+
+# Run progress: 46.67% complete, ETA 00:26:27
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 5000)
+# Warmup Iteration   1: 5000
+n = 311, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 4, 14, 14, 14 ms/op
+# Warmup Iteration   2: n = 325, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 323, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 4, 4, 4, 4 ms/op
+Iteration   1: n = 4824, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 3, 7, 7 ms/op
+Iteration   2: n = 4821, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 5, 5, 5 ms/op
+Iteration   3: n = 4820, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 3, 4, 4 ms/op
+
+Run result : 
+    samples = 14465
+        mean =      3.109 ±(99.9%) 0.002 ms/op
+         min =      3.019 ms/op
+  p( 0.0000) =      3.019 ms/op
+  p(50.0000) =      3.097 ms/op
+  p(90.0000) =      3.162 ms/op
+  p(95.0000) =      3.183 ms/op
+  p(99.0000) =      3.269 ms/op
+  p(99.9000) =      4.224 ms/op
+  p(99.9900) =      6.341 ms/op
+  p(99.9990) =      7.062 ms/op
+  p(99.9999) =      7.062 ms/op
+         max =      7.062 ms/op
+
+
+# Run progress: 48.33% complete, ETA 00:25:38
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 5000)
+# Warmup Iteration   1: 5000
+n = 307, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 4, 15, 15, 15 ms/op
+# Warmup Iteration   2: n = 319, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 4, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 322, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 3, 3, 3 ms/op
+Iteration   1: n = 4848, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 3, 7, 7 ms/op
+Iteration   2: n = 4848, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 3, 4, 4 ms/op
+Iteration   3: n = 4856, mean = 3 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3, 3, 3, 3, 3, 4, 4, 4 ms/op
+
+Run result : 
+    samples = 14552
+        mean =      3.090 ±(99.9%) 0.002 ms/op
+         min =      3.002 ms/op
+  p( 0.0000) =      3.002 ms/op
+  p(50.0000) =      3.080 ms/op
+  p(90.0000) =      3.142 ms/op
+  p(95.0000) =      3.154 ms/op
+  p(99.0000) =      3.219 ms/op
+  p(99.9000) =      3.374 ms/op
+  p(99.9900) =      5.593 ms/op
+  p(99.9990) =      6.889 ms/op
+  p(99.9999) =      6.889 ms/op
+         max =      6.889 ms/op
+
+
+# Run progress: 50.00% complete, ETA 00:24:48
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 10000)
+# Warmup Iteration   1: 10000
+n = 3, mean = 358 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 339, 350, 384, 384, 384, 384, 384, 384 ms/op
+# Warmup Iteration   2: n = 3, mean = 354 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 352, 352, 357, 357, 357, 357, 357, 357 ms/op
+# Warmup Iteration   3: n = 3, mean = 356 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 350, 352, 365, 365, 365, 365, 365, 365 ms/op
+Iteration   1: n = 43, mean = 352 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 350, 351, 353, 356, 387, 387, 387, 387 ms/op
+Iteration   2: n = 43, mean = 353 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 351, 352, 357, 362, 362, 362, 362, 362 ms/op
+Iteration   3: n = 43, mean = 352 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 350, 351, 355, 357, 358, 358, 358, 358 ms/op
+
+Run result : 
+    samples = 129
+        mean =    352.533 ±(99.9%) 1.084 ms/op
+         min =    349.700 ms/op
+  p( 0.0000) =    349.700 ms/op
+  p(50.0000) =    351.797 ms/op
+  p(90.0000) =    354.419 ms/op
+  p(95.0000) =    357.302 ms/op
+  p(99.0000) =    379.532 ms/op
+  p(99.9000) =    386.925 ms/op
+  p(99.9900) =    386.925 ms/op
+  p(99.9990) =    386.925 ms/op
+  p(99.9999) =    386.925 ms/op
+         max =    386.925 ms/op
+
+
+# Run progress: 51.67% complete, ETA 00:23:59
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 10000)
+# Warmup Iteration   1: 10000
+n = 3, mean = 349 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 343, 348, 355, 355, 355, 355, 355, 355 ms/op
+# Warmup Iteration   2: n = 4, mean = 323 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 319, 319, 334, 334, 334, 334, 334, 334 ms/op
+# Warmup Iteration   3: n = 4, mean = 320 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 319, 319, 321, 321, 321, 321, 321, 321 ms/op
+Iteration   1: n = 47, mean = 320 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 318, 320, 321, 322, 324, 324, 324, 324 ms/op
+Iteration   2: n = 47, mean = 323 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 321, 322, 324, 327, 353, 353, 353, 353 ms/op
+Iteration   3: n = 47, mean = 320 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 319, 320, 322, 323, 325, 325, 325, 325 ms/op
+
+Run result : 
+    samples = 141
+        mean =    321.091 ±(99.9%) 0.886 ms/op
+         min =    318.243 ms/op
+  p( 0.0000) =    318.243 ms/op
+  p(50.0000) =    320.864 ms/op
+  p(90.0000) =    322.961 ms/op
+  p(95.0000) =    323.958 ms/op
+  p(99.0000) =    342.496 ms/op
+  p(99.9000) =    352.846 ms/op
+  p(99.9900) =    352.846 ms/op
+  p(99.9990) =    352.846 ms/op
+  p(99.9999) =    352.846 ms/op
+         max =    352.846 ms/op
+
+
+# Run progress: 53.33% complete, ETA 00:23:10
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 15000)
+# Warmup Iteration   1: 15000
+n = 108, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 25, 25, 25, 25 ms/op
+# Warmup Iteration   2: n = 114, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 11, 11, 11, 11 ms/op
+# Warmup Iteration   3: n = 115, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 9, 9, 9 ms/op
+Iteration   1: n = 1713, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 14, 14, 14 ms/op
+Iteration   2: n = 1716, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 9, 10, 10 ms/op
+Iteration   3: n = 1717, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 11, 13, 13 ms/op
+
+Run result : 
+    samples = 5146
+        mean =      8.738 ±(99.9%) 0.008 ms/op
+         min =      8.602 ms/op
+  p( 0.0000) =      8.602 ms/op
+  p(50.0000) =      8.700 ms/op
+  p(90.0000) =      8.864 ms/op
+  p(95.0000) =      8.897 ms/op
+  p(99.0000) =      9.102 ms/op
+  p(99.9000) =     12.014 ms/op
+  p(99.9900) =     14.369 ms/op
+  p(99.9990) =     14.369 ms/op
+  p(99.9999) =     14.369 ms/op
+         max =     14.369 ms/op
+
+
+# Run progress: 55.00% complete, ETA 00:22:21
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 15000)
+# Warmup Iteration   1: 15000
+n = 108, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 25, 26, 26, 26 ms/op
+# Warmup Iteration   2: n = 111, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 11, 14, 14, 14, 14 ms/op
+# Warmup Iteration   3: n = 114, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 9, 9, 9 ms/op
+Iteration   1: n = 1712, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 9, 9, 9 ms/op
+Iteration   2: n = 1711, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 9, 9, 9 ms/op
+Iteration   3: n = 1710, mean = 9 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 9, 9, 9, 9, 9, 11, 12, 12 ms/op
+
+Run result : 
+    samples = 5133
+        mean =      8.760 ±(99.9%) 0.005 ms/op
+         min =      8.618 ms/op
+  p( 0.0000) =      8.618 ms/op
+  p(50.0000) =      8.733 ms/op
+  p(90.0000) =      8.880 ms/op
+  p(95.0000) =      8.929 ms/op
+  p(99.0000) =      9.077 ms/op
+  p(99.9000) =      9.941 ms/op
+  p(99.9900) =     12.452 ms/op
+  p(99.9990) =     12.452 ms/op
+  p(99.9999) =     12.452 ms/op
+         max =     12.452 ms/op
+
+
+# Run progress: 56.67% complete, ETA 00:21:31
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 20000)
+# Warmup Iteration   1: 20000
+n = 1, mean = 1413 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1413, 1413, 1413, 1413, 1413, 1413, 1413, 1413 ms/op
+# Warmup Iteration   2: n = 1, mean = 1470 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1470, 1470, 1470, 1470, 1470, 1470, 1470, 1470 ms/op
+# Warmup Iteration   3: n = 1, mean = 1634 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1634, 1634, 1634, 1634, 1634, 1634, 1634, 1634 ms/op
+Iteration   1: n = 10, mean = 1624 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1590, 1628, 1660, 1661, 1661, 1661, 1661, 1661 ms/op
+Iteration   2: n = 10, mean = 1635 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1592, 1627, 1720, 1726, 1726, 1726, 1726, 1726 ms/op
+Iteration   3: n = 10, mean = 1635 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1590, 1637, 1676, 1678, 1678, 1678, 1678, 1678 ms/op
+
+Run result : 
+    samples = 30
+        mean =   1631.165 ±(99.9%) 19.579 ms/op
+         min =   1589.641 ms/op
+  p( 0.0000) =   1589.641 ms/op
+  p(50.0000) =   1631.584 ms/op
+  p(90.0000) =   1664.929 ms/op
+  p(95.0000) =   1699.427 ms/op
+  p(99.0000) =   1725.956 ms/op
+  p(99.9000) =   1725.956 ms/op
+  p(99.9900) =   1725.956 ms/op
+  p(99.9990) =   1725.956 ms/op
+  p(99.9999) =   1725.956 ms/op
+         max =   1725.956 ms/op
+
+
+# Run progress: 58.33% complete, ETA 00:20:45
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 20000)
+# Warmup Iteration   1: 20000
+n = 1, mean = 1346 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1346, 1346, 1346, 1346, 1346, 1346, 1346, 1346 ms/op
+# Warmup Iteration   2: n = 1, mean = 1430 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1430, 1430, 1430, 1430, 1430, 1430, 1430, 1430 ms/op
+# Warmup Iteration   3: n = 1, mean = 1621 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1621, 1621, 1621, 1621, 1621, 1621, 1621, 1621 ms/op
+Iteration   1: n = 10, mean = 1646 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1609, 1647, 1703, 1707, 1707, 1707, 1707, 1707 ms/op
+Iteration   2: n = 10, mean = 1647 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1609, 1648, 1688, 1690, 1690, 1690, 1690, 1690 ms/op
+Iteration   3: n = 10, mean = 1650 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1602, 1653, 1683, 1684, 1684, 1684, 1684, 1684 ms/op
+
+Run result : 
+    samples = 30
+        mean =   1647.732 ±(99.9%) 16.518 ms/op
+         min =   1602.224 ms/op
+  p( 0.0000) =   1602.224 ms/op
+  p(50.0000) =   1648.361 ms/op
+  p(90.0000) =   1682.964 ms/op
+  p(95.0000) =   1697.854 ms/op
+  p(99.0000) =   1707.082 ms/op
+  p(99.9000) =   1707.082 ms/op
+  p(99.9900) =   1707.082 ms/op
+  p(99.9990) =   1707.082 ms/op
+  p(99.9999) =   1707.082 ms/op
+         max =   1707.082 ms/op
+
+
+# Run progress: 60.00% complete, ETA 00:19:59
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 25000)
+# Warmup Iteration   1: 25000
+n = 63, mean = 16 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 16, 16, 16, 34, 34, 34, 34 ms/op
+# Warmup Iteration   2: n = 67, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 16, 16, 16, 16 ms/op
+# Warmup Iteration   3: n = 67, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 16, 16, 16, 16 ms/op
+Iteration   1: n = 1004, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 15, 16, 16, 16 ms/op
+Iteration   2: n = 1002, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 16, 20, 20, 20 ms/op
+Iteration   3: n = 1003, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 16, 21, 21, 21 ms/op
+
+Run result : 
+    samples = 3009
+        mean =     14.953 ±(99.9%) 0.015 ms/op
+         min =     14.713 ms/op
+  p( 0.0000) =     14.713 ms/op
+  p(50.0000) =     14.909 ms/op
+  p(90.0000) =     15.106 ms/op
+  p(95.0000) =     15.204 ms/op
+  p(99.0000) =     15.499 ms/op
+  p(99.9000) =     19.584 ms/op
+  p(99.9900) =     21.332 ms/op
+  p(99.9990) =     21.332 ms/op
+  p(99.9999) =     21.332 ms/op
+         max =     21.332 ms/op
+
+
+# Run progress: 61.67% complete, ETA 00:19:09
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 25000)
+# Warmup Iteration   1: 25000
+n = 63, mean = 16 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 16, 16, 16, 33, 33, 33, 33 ms/op
+# Warmup Iteration   2: n = 67, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 16, 16, 16, 16 ms/op
+# Warmup Iteration   3: n = 67, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 15, 15, 15, 15 ms/op
+Iteration   1: n = 1003, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 15, 16, 16, 16 ms/op
+Iteration   2: n = 1002, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 16, 22, 22, 22 ms/op
+Iteration   3: n = 1004, mean = 15 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 15, 15, 15, 15, 15, 16, 16, 16 ms/op
+
+Run result : 
+    samples = 3009
+        mean =     14.952 ±(99.9%) 0.014 ms/op
+         min =     14.696 ms/op
+  p( 0.0000) =     14.696 ms/op
+  p(50.0000) =     14.926 ms/op
+  p(90.0000) =     15.122 ms/op
+  p(95.0000) =     15.188 ms/op
+  p(99.0000) =     15.450 ms/op
+  p(99.9000) =     18.995 ms/op
+  p(99.9900) =     22.086 ms/op
+  p(99.9990) =     22.086 ms/op
+  p(99.9999) =     22.086 ms/op
+         max =     22.086 ms/op
+
+
+# Run progress: 63.33% complete, ETA 00:18:19
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 30000)
+# Warmup Iteration   1: 30000
+n = 1, mean = 7978 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 7978, 7978, 7978, 7978, 7978, 7978, 7978, 7978 ms/op
+# Warmup Iteration   2: n = 1, mean = 2819 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 2819, 2819, 2819, 2819, 2819, 2819, 2819, 2819 ms/op
+# Warmup Iteration   3: n = 1, mean = 3217 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3217, 3217, 3217, 3217, 3217, 3217, 3217, 3217 ms/op
+Iteration   1: n = 5, mean = 3175 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3137, 3171, 3213, 3213, 3213, 3213, 3213, 3213 ms/op
+Iteration   2: n = 5, mean = 3180 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3137, 3200, 3217, 3217, 3217, 3217, 3217, 3217 ms/op
+Iteration   3: n = 5, mean = 3168 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3112, 3129, 3284, 3284, 3284, 3284, 3284, 3284 ms/op
+
+Run result : 
+    samples = 15
+        mean =   3174.249 ±(99.9%) 51.018 ms/op
+         min =   3112.174 ms/op
+  p( 0.0000) =   3112.174 ms/op
+  p(50.0000) =   3170.894 ms/op
+  p(90.0000) =   3243.875 ms/op
+  p(95.0000) =   3284.140 ms/op
+  p(99.0000) =   3284.140 ms/op
+  p(99.9000) =   3284.140 ms/op
+  p(99.9900) =   3284.140 ms/op
+  p(99.9990) =   3284.140 ms/op
+  p(99.9999) =   3284.140 ms/op
+         max =   3284.140 ms/op
+
+
+# Run progress: 65.00% complete, ETA 00:17:36
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Murmur3, count = 30000)
+# Warmup Iteration   1: 30000
+n = 1, mean = 8573 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 8573, 8573, 8573, 8573, 8573, 8573, 8573, 8573 ms/op
+# Warmup Iteration   2: n = 1, mean = 2840 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 2840, 2840, 2840, 2840, 2840, 2840, 2840, 2840 ms/op
+# Warmup Iteration   3: n = 1, mean = 3129 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3129, 3129, 3129, 3129, 3129, 3129, 3129, 3129 ms/op
+Iteration   1: n = 5, mean = 3141 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3066, 3137, 3213, 3213, 3213, 3213, 3213, 3213 ms/op
+Iteration   2: n = 5, mean = 3125 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3104, 3112, 3150, 3150, 3150, 3150, 3150, 3150 ms/op
+Iteration   3: n = 5, mean = 3096 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 3041, 3083, 3213, 3213, 3213, 3213, 3213, 3213 ms/op
+
+Run result : 
+    samples = 15
+        mean =   3120.562 ±(99.9%) 60.397 ms/op
+         min =   3040.870 ms/op
+  p( 0.0000) =   3040.870 ms/op
+  p(50.0000) =   3107.979 ms/op
+  p(90.0000) =   3212.837 ms/op
+  p(95.0000) =   3212.837 ms/op
+  p(99.0000) =   3212.837 ms/op
+  p(99.9000) =   3212.837 ms/op
+  p(99.9900) =   3212.837 ms/op
+  p(99.9990) =   3212.837 ms/op
+  p(99.9999) =   3212.837 ms/op
+         max =   3212.837 ms/op
+
+
+# Run progress: 66.67% complete, ETA 00:16:52
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 10)
+# Warmup Iteration   1: 10
+n = 21420, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 3, 4 ms/op
+# Warmup Iteration   2: n = 11368, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 10890, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 161733, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 161409, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   3: n = 161392, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+
+Run result : 
+    samples = 484534
+        mean =      0.000 ±(99.9%) 0.000 ms/op
+         min =      0.000 ms/op
+  p( 0.0000) =      0.000 ms/op
+  p(50.0000) =      0.000 ms/op
+  p(90.0000) =      0.000 ms/op
+  p(95.0000) =      0.000 ms/op
+  p(99.0000) =      0.000 ms/op
+  p(99.9000) =      0.000 ms/op
+  p(99.9900) =      0.007 ms/op
+  p(99.9990) =      0.008 ms/op
+  p(99.9999) =      0.742 ms/op
+         max =      0.742 ms/op
+
+
+# Run progress: 68.33% complete, ETA 00:16:01
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 10)
+# Warmup Iteration   1: 10
+n = 41015, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 4 ms/op
+# Warmup Iteration   2: n = 22483, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 10785, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 160462, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   2: n = 160019, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 160129, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 480610
+        mean =      0.000 ±(99.9%) 0.000 ms/op
+         min =      0.000 ms/op
+  p( 0.0000) =      0.000 ms/op
+  p(50.0000) =      0.000 ms/op
+  p(90.0000) =      0.000 ms/op
+  p(95.0000) =      0.000 ms/op
+  p(99.0000) =      0.000 ms/op
+  p(99.9000) =      0.000 ms/op
+  p(99.9900) =      0.007 ms/op
+  p(99.9990) =      0.011 ms/op
+  p(99.9999) =      0.742 ms/op
+         max =      0.742 ms/op
+
+
+# Run progress: 70.00% complete, ETA 00:15:10
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 100)
+# Warmup Iteration   1: 100
+n = 28041, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 4 ms/op
+# Warmup Iteration   2: n = 12873, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 15407, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 228642, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 229300, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 228240, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 686182
+        mean =      0.002 ±(99.9%) 0.000 ms/op
+         min =      0.002 ms/op
+  p( 0.0000) =      0.002 ms/op
+  p(50.0000) =      0.002 ms/op
+  p(90.0000) =      0.002 ms/op
+  p(95.0000) =      0.002 ms/op
+  p(99.0000) =      0.003 ms/op
+  p(99.9000) =      0.009 ms/op
+  p(99.9900) =      0.011 ms/op
+  p(99.9990) =      0.765 ms/op
+  p(99.9999) =      0.853 ms/op
+         max =      0.853 ms/op
+
+
+# Run progress: 71.67% complete, ETA 00:14:19
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 100)
+# Warmup Iteration   1: 100
+n = 27783, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 4 ms/op
+# Warmup Iteration   2: n = 12906, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 15219, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 227986, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   2: n = 228559, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+Iteration   3: n = 228094, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 1 ms/op
+
+Run result : 
+    samples = 684639
+        mean =      0.002 ±(99.9%) 0.000 ms/op
+         min =      0.002 ms/op
+  p( 0.0000) =      0.002 ms/op
+  p(50.0000) =      0.002 ms/op
+  p(90.0000) =      0.002 ms/op
+  p(95.0000) =      0.002 ms/op
+  p(99.0000) =      0.003 ms/op
+  p(99.9000) =      0.009 ms/op
+  p(99.9900) =      0.010 ms/op
+  p(99.9990) =      0.761 ms/op
+  p(99.9999) =      0.819 ms/op
+         max =      0.819 ms/op
+
+
+# Run progress: 73.33% complete, ETA 00:13:28
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 1000)
+# Warmup Iteration   1: 1000
+n = 19369, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 4, 5 ms/op
+# Warmup Iteration   2: n = 10635, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 11099, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 166396, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 7 ms/op
+Iteration   2: n = 165901, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 3 ms/op
+Iteration   3: n = 165414, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 2 ms/op
+
+Run result : 
+    samples = 497711
+        mean =      0.023 ±(99.9%) 0.000 ms/op
+         min =      0.020 ms/op
+  p( 0.0000) =      0.020 ms/op
+  p(50.0000) =      0.022 ms/op
+  p(90.0000) =      0.023 ms/op
+  p(95.0000) =      0.025 ms/op
+  p(99.0000) =      0.031 ms/op
+  p(99.9000) =      0.038 ms/op
+  p(99.9900) =      0.768 ms/op
+  p(99.9990) =      1.002 ms/op
+  p(99.9999) =      6.783 ms/op
+         max =      6.783 ms/op
+
+
+# Run progress: 75.00% complete, ETA 00:12:37
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 1000)
+# Warmup Iteration   1: 1000
+n = 20653, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 4, 5 ms/op
+# Warmup Iteration   2: n = 11368, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+# Warmup Iteration   3: n = 12181, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 ms/op
+Iteration   1: n = 180713, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 5 ms/op
+Iteration   2: n = 179651, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 6 ms/op
+Iteration   3: n = 180050, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+
+Run result : 
+    samples = 540414
+        mean =      0.021 ±(99.9%) 0.000 ms/op
+         min =      0.019 ms/op
+  p( 0.0000) =      0.019 ms/op
+  p(50.0000) =      0.020 ms/op
+  p(90.0000) =      0.022 ms/op
+  p(95.0000) =      0.023 ms/op
+  p(99.0000) =      0.029 ms/op
+  p(99.9000) =      0.035 ms/op
+  p(99.9900) =      0.757 ms/op
+  p(99.9990) =      2.101 ms/op
+  p(99.9999) =      5.710 ms/op
+         max =      5.710 ms/op
+
+
+# Run progress: 76.67% complete, ETA 00:11:46
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 2500)
+# Warmup Iteration   1: 2500
+n = 12471, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 2, 6, 7 ms/op
+# Warmup Iteration   2: n = 14270, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 14223, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   1: n = 212161, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 4 ms/op
+Iteration   2: n = 211457, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+Iteration   3: n = 211608, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+
+Run result : 
+    samples = 635226
+        mean =      0.071 ±(99.9%) 0.000 ms/op
+         min =      0.065 ms/op
+  p( 0.0000) =      0.065 ms/op
+  p(50.0000) =      0.069 ms/op
+  p(90.0000) =      0.074 ms/op
+  p(95.0000) =      0.078 ms/op
+  p(99.0000) =      0.086 ms/op
+  p(99.9000) =      0.674 ms/op
+  p(99.9900) =      0.890 ms/op
+  p(99.9990) =      2.518 ms/op
+  p(99.9999) =      5.128 ms/op
+         max =      5.128 ms/op
+
+
+# Run progress: 78.33% complete, ETA 00:10:56
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 2500)
+# Warmup Iteration   1: 2500
+n = 12787, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 2, 6, 7 ms/op
+# Warmup Iteration   2: n = 14070, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 14796, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   1: n = 219734, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 3 ms/op
+Iteration   2: n = 219438, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 7 ms/op
+Iteration   3: n = 218588, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 4 ms/op
+
+Run result : 
+    samples = 657760
+        mean =      0.068 ±(99.9%) 0.000 ms/op
+         min =      0.063 ms/op
+  p( 0.0000) =      0.063 ms/op
+  p(50.0000) =      0.066 ms/op
+  p(90.0000) =      0.071 ms/op
+  p(95.0000) =      0.075 ms/op
+  p(99.0000) =      0.084 ms/op
+  p(99.9000) =      0.117 ms/op
+  p(99.9900) =      0.865 ms/op
+  p(99.9990) =      2.620 ms/op
+  p(99.9999) =      6.734 ms/op
+         max =      6.734 ms/op
+
+
+# Run progress: 80.00% complete, ETA 00:10:05
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 5000)
+# Warmup Iteration   1: 5000
+n = 5845, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 3, 10, 10 ms/op
+# Warmup Iteration   2: n = 6436, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+# Warmup Iteration   3: n = 6608, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 2, 2 ms/op
+Iteration   1: n = 99602, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 3 ms/op
+Iteration   2: n = 98373, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 6 ms/op
+Iteration   3: n = 98573, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+
+Run result : 
+    samples = 296548
+        mean =      0.152 ±(99.9%) 0.000 ms/op
+         min =      0.141 ms/op
+  p( 0.0000) =      0.141 ms/op
+  p(50.0000) =      0.147 ms/op
+  p(90.0000) =      0.158 ms/op
+  p(95.0000) =      0.167 ms/op
+  p(99.0000) =      0.179 ms/op
+  p(99.9000) =      0.879 ms/op
+  p(99.9900) =      1.112 ms/op
+  p(99.9990) =      4.999 ms/op
+  p(99.9999) =      5.947 ms/op
+         max =      5.947 ms/op
+
+
+# Run progress: 81.67% complete, ETA 00:09:14
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 5000)
+# Warmup Iteration   1: 5000
+n = 5629, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 3, 10, 10 ms/op
+# Warmup Iteration   2: n = 6234, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+# Warmup Iteration   3: n = 6223, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 1, 1 ms/op
+Iteration   1: n = 96305, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 9 ms/op
+Iteration   2: n = 95947, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 6 ms/op
+Iteration   3: n = 95868, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 2 ms/op
+
+Run result : 
+    samples = 288120
+        mean =      0.156 ±(99.9%) 0.000 ms/op
+         min =      0.146 ms/op
+  p( 0.0000) =      0.146 ms/op
+  p(50.0000) =      0.152 ms/op
+  p(90.0000) =      0.162 ms/op
+  p(95.0000) =      0.172 ms/op
+  p(99.0000) =      0.182 ms/op
+  p(99.9000) =      0.881 ms/op
+  p(99.9900) =      1.103 ms/op
+  p(99.9990) =      5.042 ms/op
+  p(99.9999) =      9.060 ms/op
+         max =      9.060 ms/op
+
+
+# Run progress: 83.33% complete, ETA 00:08:24
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 10000)
+# Warmup Iteration   1: 10000
+n = 2851, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 4, 17, 17 ms/op
+# Warmup Iteration   2: n = 3098, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 3, 3 ms/op
+# Warmup Iteration   3: n = 3074, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 1 ms/op
+Iteration   1: n = 44910, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 2 ms/op
+Iteration   2: n = 44182, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 5 ms/op
+Iteration   3: n = 44157, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 4 ms/op
+
+Run result : 
+    samples = 133249
+        mean =      0.337 ±(99.9%) 0.001 ms/op
+         min =      0.295 ms/op
+  p( 0.0000) =      0.295 ms/op
+  p(50.0000) =      0.330 ms/op
+  p(90.0000) =      0.351 ms/op
+  p(95.0000) =      0.363 ms/op
+  p(99.0000) =      0.385 ms/op
+  p(99.9000) =      1.220 ms/op
+  p(99.9900) =      2.033 ms/op
+  p(99.9990) =      4.533 ms/op
+  p(99.9999) =      4.694 ms/op
+         max =      4.694 ms/op
+
+
+# Run progress: 85.00% complete, ETA 00:07:33
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 10000)
+# Warmup Iteration   1: 10000
+n = 2804, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 4, 18, 18 ms/op
+# Warmup Iteration   2: n = 3028, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 2, 2 ms/op
+# Warmup Iteration   3: n = 2987, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 2 ms/op
+Iteration   1: n = 44297, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 5 ms/op
+Iteration   2: n = 43655, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 1, 4 ms/op
+Iteration   3: n = 43440, mean = 0 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 1, 2, 7 ms/op
+
+Run result : 
+    samples = 131392
+        mean =      0.342 ±(99.9%) 0.001 ms/op
+         min =      0.298 ms/op
+  p( 0.0000) =      0.298 ms/op
+  p(50.0000) =      0.335 ms/op
+  p(90.0000) =      0.356 ms/op
+  p(95.0000) =      0.368 ms/op
+  p(99.0000) =      0.390 ms/op
+  p(99.9000) =      1.225 ms/op
+  p(99.9900) =      1.462 ms/op
+  p(99.9990) =      6.179 ms/op
+  p(99.9999) =      6.521 ms/op
+         max =      6.521 ms/op
+
+
+# Run progress: 86.67% complete, ETA 00:06:43
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 15000)
+# Warmup Iteration   1: 15000
+n = 1445, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 16, 21, 21 ms/op
+# Warmup Iteration   2: n = 1573, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 4, 4 ms/op
+# Warmup Iteration   3: n = 1556, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 4, 4 ms/op
+Iteration   1: n = 24377, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   2: n = 24196, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 7 ms/op
+Iteration   3: n = 24162, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 4 ms/op
+
+Run result : 
+    samples = 72735
+        mean =      0.618 ±(99.9%) 0.001 ms/op
+         min =      0.565 ms/op
+  p( 0.0000) =      0.565 ms/op
+  p(50.0000) =      0.605 ms/op
+  p(90.0000) =      0.644 ms/op
+  p(95.0000) =      0.655 ms/op
+  p(99.0000) =      0.696 ms/op
+  p(99.9000) =      1.618 ms/op
+  p(99.9900) =      2.305 ms/op
+  p(99.9990) =      7.176 ms/op
+  p(99.9999) =      7.176 ms/op
+         max =      7.176 ms/op
+
+
+# Run progress: 88.33% complete, ETA 00:05:52
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 15000)
+# Warmup Iteration   1: 15000
+n = 1442, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 16, 21, 21 ms/op
+# Warmup Iteration   2: n = 1573, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 3 ms/op
+# Warmup Iteration   3: n = 1551, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 4, 4 ms/op
+Iteration   1: n = 24303, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 3, 4 ms/op
+Iteration   2: n = 24215, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 5, 7 ms/op
+Iteration   3: n = 24082, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 5, 7 ms/op
+
+Run result : 
+    samples = 72600
+        mean =      0.619 ±(99.9%) 0.001 ms/op
+         min =      0.564 ms/op
+  p( 0.0000) =      0.564 ms/op
+  p(50.0000) =      0.606 ms/op
+  p(90.0000) =      0.645 ms/op
+  p(95.0000) =      0.656 ms/op
+  p(99.0000) =      0.697 ms/op
+  p(99.9000) =      1.630 ms/op
+  p(99.9900) =      3.737 ms/op
+  p(99.9990) =      6.873 ms/op
+  p(99.9999) =      6.873 ms/op
+         max =      6.873 ms/op
+
+
+# Run progress: 90.00% complete, ETA 00:05:02
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 20000)
+# Warmup Iteration   1: 20000
+n = 1216, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 19, 22, 22 ms/op
+# Warmup Iteration   2: n = 1364, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 1354, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   1: n = 20952, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   2: n = 20851, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 7, 7 ms/op
+Iteration   3: n = 20728, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 5, 6 ms/op
+
+Run result : 
+    samples = 62531
+        mean =      0.719 ±(99.9%) 0.001 ms/op
+         min =      0.674 ms/op
+  p( 0.0000) =      0.674 ms/op
+  p(50.0000) =      0.705 ms/op
+  p(90.0000) =      0.748 ms/op
+  p(95.0000) =      0.759 ms/op
+  p(99.0000) =      0.885 ms/op
+  p(99.9000) =      1.825 ms/op
+  p(99.9900) =      5.104 ms/op
+  p(99.9990) =      7.274 ms/op
+  p(99.9999) =      7.274 ms/op
+         max =      7.274 ms/op
+
+
+# Run progress: 91.67% complete, ETA 00:04:11
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 20000)
+# Warmup Iteration   1: 20000
+n = 1201, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 19, 22, 22 ms/op
+# Warmup Iteration   2: n = 1321, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 3, 3, 3 ms/op
+# Warmup Iteration   3: n = 1330, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 2, 2 ms/op
+Iteration   1: n = 20504, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 6, 7 ms/op
+Iteration   2: n = 20378, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 4, 4 ms/op
+Iteration   3: n = 20418, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 1, 2, 4, 4 ms/op
+
+Run result : 
+    samples = 61300
+        mean =      0.733 ±(99.9%) 0.001 ms/op
+         min =      0.680 ms/op
+  p( 0.0000) =      0.680 ms/op
+  p(50.0000) =      0.717 ms/op
+  p(90.0000) =      0.762 ms/op
+  p(95.0000) =      0.772 ms/op
+  p(99.0000) =      0.925 ms/op
+  p(99.9000) =      1.860 ms/op
+  p(99.9900) =      3.781 ms/op
+  p(99.9990) =      6.644 ms/op
+  p(99.9999) =      6.644 ms/op
+         max =      6.644 ms/op
+
+
+# Run progress: 93.33% complete, ETA 00:03:21
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 25000)
+# Warmup Iteration   1: 25000
+n = 748, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 2, 5, 24, 24, 24 ms/op
+# Warmup Iteration   2: n = 843, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 826, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 2, 2, 3, 3, 3 ms/op
+Iteration   1: n = 13083, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 2, 3, 3 ms/op
+Iteration   2: n = 12958, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 2, 8, 9 ms/op
+Iteration   3: n = 12915, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 4, 4 ms/op
+
+Run result : 
+    samples = 38956
+        mean =      1.154 ±(99.9%) 0.002 ms/op
+         min =      1.083 ms/op
+  p( 0.0000) =      1.083 ms/op
+  p(50.0000) =      1.133 ms/op
+  p(90.0000) =      1.188 ms/op
+  p(95.0000) =      1.210 ms/op
+  p(99.0000) =      1.927 ms/op
+  p(99.9000) =      2.445 ms/op
+  p(99.9900) =      3.937 ms/op
+  p(99.9990) =      8.684 ms/op
+  p(99.9999) =      8.684 ms/op
+         max =      8.684 ms/op
+
+
+# Run progress: 95.00% complete, ETA 00:02:31
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 25000)
+# Warmup Iteration   1: 25000
+n = 729, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 2, 5, 24, 24, 24 ms/op
+# Warmup Iteration   2: n = 800, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 810, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 2, 2, 2 ms/op
+Iteration   1: n = 12622, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 2, 4, 4 ms/op
+Iteration   2: n = 12637, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 2, 4, 4 ms/op
+Iteration   3: n = 12660, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 2, 7, 7 ms/op
+
+Run result : 
+    samples = 37919
+        mean =      1.185 ±(99.9%) 0.002 ms/op
+         min =      1.079 ms/op
+  p( 0.0000) =      1.079 ms/op
+  p(50.0000) =      1.163 ms/op
+  p(90.0000) =      1.227 ms/op
+  p(95.0000) =      1.251 ms/op
+  p(99.0000) =      2.058 ms/op
+  p(99.9000) =      2.446 ms/op
+  p(99.9900) =      4.071 ms/op
+  p(99.9990) =      7.135 ms/op
+  p(99.9999) =      7.135 ms/op
+         max =      7.135 ms/op
+
+
+# Run progress: 96.67% complete, ETA 00:01:40
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 1 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 30000)
+# Warmup Iteration   1: 30000
+n = 667, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 6, 26, 26, 26 ms/op
+# Warmup Iteration   2: n = 732, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 725, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 3, 3, 3 ms/op
+Iteration   1: n = 11518, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+Iteration   2: n = 11510, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+Iteration   3: n = 11521, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 6, 6 ms/op
+
+Run result : 
+    samples = 34549
+        mean =      1.301 ±(99.9%) 0.003 ms/op
+         min =      1.186 ms/op
+  p( 0.0000) =      1.186 ms/op
+  p(50.0000) =      1.276 ms/op
+  p(90.0000) =      1.348 ms/op
+  p(95.0000) =      1.378 ms/op
+  p(99.0000) =      2.183 ms/op
+  p(99.9000) =      2.744 ms/op
+  p(99.9900) =      4.841 ms/op
+  p(99.9990) =      5.906 ms/op
+  p(99.9999) =      5.906 ms/op
+         max =      5.906 ms/op
+
+
+# Run progress: 98.33% complete, ETA 00:00:50
+# VM invoker: /home/user/Apps/jdk1.7.0_55/jre/bin/java
+# VM options: -Djdk.map.althashing.threshold=1
+# Fork: 2 of 2
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 15 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: unportant.gist.hashmapcol.HashMapBenchmark.put
+# Parameters: (colliderName = Random, count = 30000)
+# Warmup Iteration   1: 30000
+n = 663, mean = 2 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 5, 26, 26, 26 ms/op
+# Warmup Iteration   2: n = 716, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 4, 4, 4 ms/op
+# Warmup Iteration   3: n = 735, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 2, 2, 2, 3, 3, 3 ms/op
+Iteration   1: n = 11430, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 4, 4 ms/op
+Iteration   2: n = 11404, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 18, 20 ms/op
+Iteration   3: n = 11461, mean = 1 ms/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 1, 1, 1, 1, 2, 3, 5, 5 ms/op
+
+Run result : 
+    samples = 34295
+        mean =      1.310 ±(99.9%) 0.003 ms/op
+         min =      1.186 ms/op
+  p( 0.0000) =      1.186 ms/op
+  p(50.0000) =      1.284 ms/op
+  p(90.0000) =      1.356 ms/op
+  p(95.0000) =      1.395 ms/op
+  p(99.0000) =      2.204 ms/op
+  p(99.9000) =      2.757 ms/op
+  p(99.9900) =      4.087 ms/op
+  p(99.9990) =     20.480 ms/op
+  p(99.9999) =     20.480 ms/op
+         max =     20.480 ms/op
+
+
+Benchmark                    (colliderName) (count)   Mode   Samples         Mean   Mean error    Units
+u.g.h.HashMapBenchmark.put          DJBX31A      10 sample    969292        0.000        0.000    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A     100 sample   1369942        0.002        0.000    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A    1000 sample   1019975        0.022        0.000    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A    2500 sample   1299933        0.069        0.000    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A    5000 sample    591212        0.152        0.000    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A   10000 sample    266600        0.337        0.000    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A   15000 sample    145987        0.616        0.001    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A   20000 sample    124090        0.725        0.001    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A   25000 sample     73962        1.215        0.002    ms/op
+u.g.h.HashMapBenchmark.put          DJBX31A   30000 sample     68305        1.316        0.002    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3      10 sample   1325221        0.000        0.000    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3     100 sample   1345576        0.004        0.000    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3    1000 sample    130707        0.688        0.000    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3    2500 sample    764527        0.118        0.000    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3    5000 sample     29017        3.099        0.001    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3   10000 sample       270      336.113        3.259    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3   15000 sample     10279        8.749        0.005    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3   20000 sample        60     1639.449       12.585    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3   25000 sample      6018       14.952        0.010    ms/op
+u.g.h.HashMapBenchmark.put          Murmur3   30000 sample        30     3147.406       38.875    ms/op
+u.g.h.HashMapBenchmark.put           Random      10 sample    965144        0.000        0.000    ms/op
+u.g.h.HashMapBenchmark.put           Random     100 sample   1370821        0.002        0.000    ms/op
+u.g.h.HashMapBenchmark.put           Random    1000 sample   1038125        0.022        0.000    ms/op
+u.g.h.HashMapBenchmark.put           Random    2500 sample   1292986        0.069        0.000    ms/op
+u.g.h.HashMapBenchmark.put           Random    5000 sample    584668        0.154        0.000    ms/op
+u.g.h.HashMapBenchmark.put           Random   10000 sample    264641        0.340        0.000    ms/op
+u.g.h.HashMapBenchmark.put           Random   15000 sample    145335        0.619        0.001    ms/op
+u.g.h.HashMapBenchmark.put           Random   20000 sample    123831        0.726        0.001    ms/op
+u.g.h.HashMapBenchmark.put           Random   25000 sample     76875        1.169        0.002    ms/op
+u.g.h.HashMapBenchmark.put           Random   30000 sample     68844        1.306        0.002    ms/op
