@@ -1,5 +1,5 @@
 
-# OpenJdk, JEP 180: HashMap, collisions et attaques sur la complexité
+# OpenJDK JEP 180: HashMap, collisions &amp; attaques par la complexité
 
 Dans cet article, je vais parler de la [JEP
 180](http://openjdk.java.net/jeps/180) d'OpenJDK 8 qui propose une solution
@@ -105,9 +105,9 @@ correspond à `key`
 
 Comme on le voit avec la ligne suivante `int hash = hash(key.hashCode());`, en
 java la case est calculée à partir de la valeur retourné par `hashCode()`. On
-applique en plus un la fonction `hash()` afin d'améliorer un peu la distribution
-des clés. En effet, `i` est calculé modulo la taille de la table, et il est
-facile d'avoir des effets néfastes:
+applique en plus la fonction `hash()` afin d'améliorer un peu la distribution
+des clés. En effet, `i` est calculé modulo la taille de la table qui est une
+puissance de deux, et il est facile d'avoir des effets néfastes:
 
 ~~~java
    /**
@@ -128,8 +128,9 @@ facile d'avoir des effets néfastes:
 
 Enfin le cas qui va nous intéresser particulièrement ici est celui des chaines
 de caractères comme clé car c'est une utilisation extrêmement courante et
-facilement attaques. Souvent les données fournis par l'utilisateur sont des
-chaînes de caractères plutôt que des objets complexes.
+exposée aux attaques. Souvent les données fournis par l'utilisateur sont des
+chaînes de caractères plutôt que des objets complexes. Par exemple les en-tête
+HTTP sont souvent stocké dans un tableau associatif.
 
 Regardons donc comment est implémenté le `hashCode` de la classe `String`:
 
@@ -166,17 +167,19 @@ Regardons donc comment est implémenté le `hashCode` de la classe `String`:
 Cela correspond à une fonction de hachage non cryptographique très courante pour
 les chaînes de caractères. C'est une variante du _Bernstein hash_, aussi appelé
 djb2. Elle a ceci d'intéressant qu'elle est utilisée par beaucoup plateformes et
-qu'expliquer pourquoi elle marche et comment ont été choisi les valeurs est
-assez difficile. Les gens intéressés pourront découvrir d'[autres fonctions](htt
-p://www.eternallyconfuzzled.com/tuts/algorithms/jsw_tut_hashing.aspx) ainsi que
-passer beaucoup de temps à chercher les réponses à la question précédente.
+qu'expliquer pourquoi elle marche et comment et pourquoi ont été choisi les
+valeurs est assez difficile. Les gens intéressés pourront découvrir d'[autres fo
+nctions](http://www.eternallyconfuzzled.com/tuts/algorithms/jsw_tut_hashing.aspx
+) ainsi que passer beaucoup de temps à chercher les réponses à la question
+précédente.
 
 Dans tous les cas nous appellerons cette variante de dbj2 sous le doux nom de
 DJBX31A.
 
-Maintenant exécutons notre benchmark en utilisant Java 6u45 avec des chaînes
+Maintenant exécutons notre benchmark en utilisant Java 6u45 avec des chaines
 aléatoires de taille constante, 15 caractères, pour des collections allant de 10
 à 30.000 éléments. Le résultat est le suivant:
+
 
 ![png](/JEP_180_analysis_files/JEP_180_analysis_10_1.png?raw=true)
 
@@ -189,8 +192,8 @@ nous arrivons à insérer environs 20 000 éléments par milliseconde.
 
 ## Attaques par la complexité
 
-Si vous avez bien suivi la première parti, vous savez que la performance d'une
-table de hachage dépend du nombre de collision et donc de la qualité de sa
+Si vous avez bien suivi la première partie, vous savez que la performance d'une
+table de hachage dépend du nombre de collisions et donc de la qualité de sa
 fonction de hachage. Par nature une table de hachage ne permet pas de garantir
 que les opérations seront en $O(1)$, il s'agit seulement du cas moyen quand tout
 se passe bien. La performance au pire cas est $O(n)$.
@@ -199,9 +202,9 @@ Ce fait est connu de tout étudiant ayant suivi une introduction à
 l'algorithmique. Seulement il y a quelques années certain ont eu l'idée
 d'utiliser ce pire cas pour faire des dénis de service. C'est une attaque par la
 complexité. L'idée est simple, beaucoup d'application stockent en mémoire des
-chaînes de caractères fourni par un utilisateur dans une table de hachage. S'il
-arrive à fournir des chaînes qui vont systématiquement créer des collisions,
-alors il va pouvoir ralentir très fortement le système.
+chaînes de caractères fournies par un utilisateur dans une table de hachage.
+S'il arrive à fournir des chaînes qui vont systématiquement créer des
+collisions, alors il va pouvoir ralentir très fortement le système.
 
 L'idée n'est pas nouvelle, elle a été parfaitement
 [documentée](http://madchat.fr/reseau/dos/CrosbyWallach_UsenixSec2003.pdf) en
@@ -217,18 +220,20 @@ qu'ils trouvent. En gros presque toutes les plateformes majeures sont vulnérabl
 de PHP à Java en passant par Python puisque tout le monde ou presque utilise une
 variante de djb2, pour lequel il est très facile de générer des collisions. Le
 résultat c'est qu'on peut faire un déni de service sur a peu près n'importe quoi
-avec très peu de données. Avec 2MB ils arrivent à occuper un processeur pendant
-plus d'une demi-heure.
+avec très peu de données. Avec 2MB de données ils arrivent à occuper un
+processeur pendant plus d'une demi-heure.
 
 Le benchmark suivant compare la courbe précédente avec une où toutes les clés se
 retrouvent dans la même case car on génère spécialement les clés pour que
 DJBX31A retourne toujours la même valeur bien que les chaînes soient
 différentes.
 
+
 ![png](/JEP_180_analysis_files/JEP_180_analysis_15_1.png?raw=true)
 
+
 Comme on peut le voir l'effet est plutôt dramatique. Chaque insertion dépend
-donc maintenant du nombre d'élément dans la table de hachage. Si vous vous
+donc maintenant du nombre d'éléments dans la table de hachage. Si vous vous
 rappelez du code de la méthode _put()_, nous avons à parcourir tous les éléments
 à chaque fois. Puisque nous allons insérer un nouvel élément, il faut vérifier
 tous les autres. La courbe devient donc quadratique. Pour 20 000 éléments on
@@ -241,10 +246,11 @@ Comme la plupart des plateformes impactées par cette découverte, Java cherche
 une solution. Et beaucoup vont choisir une solution similaire. L'idée est qu'il
 faut empêcher à un utilisateur de pouvoir générer des collisions. Une solution
 est d'utiliser des fonctions de hachage cryptographique qui sont conçues pour
-cela. En pratique ce n'est pas possible car elles sont beaucoup trop lentes. Le
-consensus est alors de migrer vers une autre fonction de hachage:
-[Murmur](http://en.wikipedia.org/wiki/MurmurHash). 2 ou 3. Murmur est une bonne
-fonction de hachage non cryptographique, elle est rapide et fourni de bons
+cela. En pratique ce n'est pas possible car elles sont beaucoup trop lentes
+(grossièrement il y a minimum un ordre de grandeur d'écart). Le consensus est
+alors de migrer vers une autre fonction de hachage:
+[Murmur](http://en.wikipedia.org/wiki/MurmurHash) 2 ou 3. Murmur est une bonne
+fonction de hachage non cryptographique, elle est rapide et fournie de bons
 résultats. En plus on peut l'initialiser avec une graine qui va conditionner la
 valeur de sortie. L'idée est donc de générer la graine à l'exécution. Il devient
 alors compliquer à l'utilisateur de générer des collisions car il a besoin de la
@@ -277,7 +283,7 @@ sans risque de casser la compatibilité et le comportement des applications.
 C'est une règle stricte du côté de Java.
 
 Pour cette raison on imagine donc ce qui est pour moi l'un des patchs les plus
-dégelasse de l'histoire du JDK qui a été livré en Java
+dégueulasse de l'histoire du JDK qui a été livré en Java
 [7u6](http://www.oracle.com/technetwork/java/javase/7u6-relnotes-1729681.html).
 En gros on ne touche à rien de ce qui existe. On rajoute une nouvelle méthode
 `hash32` à la classe String qui repose sur Murmur.
@@ -303,11 +309,12 @@ value.length);
 
 Maintenant on patch les collections utilisant des fonctions de hachage pour
 faire la chose suivante: On regarde le type de l'élément, si c'est String alors
-on invoque `hash32`, sinon on invoque `hashCode`.  Seulement les String sont
-immutables, et la valeur de `hashCode` était caché pour éviter de le recalculer
-à chaque fois. On doit donc faire de même avec `hash32` qui impose donc 4 octets
-supplémentaire à chaque instance de String. Pour finir on initialise
-`HASHING_SEED` dynamiquement à l'initialisation pour empêcher les collisions.
+on invoque `hash32` par une introspection dédiée car la méthode n'est pas
+publique, sinon on invoque `hashCode`.  Seulement les String sont immutables, et
+la valeur de `hashCode` était cachée pour éviter de le recalculer à chaque fois.
+On doit donc faire de même avec `hash32` qui impose donc 4 octets supplémentaire
+à chaque instance de String. Pour finir on initialise `HASHING_SEED`
+dynamiquement à l'initialisation pour empêcher les collisions.
 
 C'est cool on n'a pas touché à `hashCode` ! Seulement voilà le comportement des
 applications peut toujours changer même en remplaçant la fonction de hachage
@@ -320,6 +327,7 @@ libs.devel/10361) sur la mailing list d'OpenJDK ainsi que le
 
 Voilà ça pique les yeux mais ça fait le job ! Refaisons tourner le même
 benchmark avec Java 7u55:
+
 
 ![png](/JEP_180_analysis_files/JEP_180_analysis_19_1.png?raw=true)
 
@@ -360,8 +368,8 @@ Cette fois nous comparons le comportement usuel avec:
   - Des collisions contre DJBX31A sans l'_alternative string-hashing_
   - Des collisions contre Murmur3 avec l'_alternative string-hashing_
 
-(Les deux points à 15k et 25k sont étranges je n'ai pas vérifié si le générateur
-à un problème pour ces valeurs, les résultats eux sont stables)
+(Je n'ai pas investigué les deux points à 15k et 25k qui sont très étranges. Le
+générateur passe les tests unitaires et les résultats eux sont stables...)
 
 C'est grosso modo la même chose. On a donc fait un patch moche qui ne sert plus
 à rien puisque dans les deux cas on est vulnérable...
@@ -375,7 +383,7 @@ une nouvelle fonction de hachage:
 [SipHash](http://en.wikipedia.org/wiki/SipHash). Elle est vendu comme étant
 aussi rapide que les précédentes mais résistante aux attaques par collisions.
 
-La plupart des plateformes ont migrés vers SipHash. Python par exemple. Et comme
+La plupart des plateformes ont migré vers SipHash. Python par exemple. Et comme
 on s'est déjà fait avoir une fois on en profite pour faire la [PEP
 456](legacy.python.org/dev/peps/pep-0456/) qui permet d'avoir des fonctions de
 hash interchangeable pour les chaine de caractères et tableaux d'octets. On
@@ -396,7 +404,9 @@ implémenté dans OpenJDK 8.
 
 Refaisons tourner notre benchmark sur OpenJDK 8:
 
+
 ![png](/JEP_180_analysis_files/JEP_180_analysis_29_1.png?raw=true)
+
 
 Cette fois ci nous comparons le comportement normal d'OpenJDK 8 et Java 7u55
 ainsi que le comportement d'OpenJDK8 avec des collisions.
@@ -449,22 +459,25 @@ L'approche d'OpenJDK 8 est intéressante et différente des autres plateformes
 puisqu'elle ne cherche pas à résoudre le problème des collisions mais à
 améliorer le pire cas. Changer de fonction de hachage pour les String étant
 compliqué on peut comprendre ce choix. Ils ont fait le pari que les performances
-offertes par les arbres balancés suffiseront à se protéger des denis de service
-et à offrir une bonne robustesse. En pratique on observe un ralentissement
-constant de ~10x quelque soit la taille de la collection.
+offertes par les arbres balancés suffiront à se protéger et à offrir une bonne
+robustesse aux mauvaises fonctions de hachage. En pratique, au pire cas on
+observe un ralentissement constant de ~10x quelque soit la taille de la
+collection.
 
 De l'autre côté beaucoup de plateformes ont changé de fonction de hachage pour
-éviter le pire cas mais n'ont pas chercher à ameillorer le pire cas et sont
-restés aux listes chainées. Ils se protèges donc des dénis de service selon les
+éviter le pire cas mais n'ont pas chercher à l'ameillorer et sont restés aux
+listes chainées. Ils se protègent donc des dénis de service selon les
 connaissances actuelles mais ne cherchent pas à se protéger pour le future ni à
-offrir une réponse performante aux fonctions de hachage qui pourrait être
-légèrement biaisés pour certains autre type de donnée.
+offrir une réponse performante aux fonctions de hachage qui pourraient être
+légèrement biaisés pour certains autres type de données car implémentées par
+l'utilisateur.
 
-Dans l'idéal les deux techniques devraient être appliqué mais je ne connais pas
-de plateforme qui l'a fait. Et vous les outils que vous utilisez ils ont fait
-quoi ?
+Dans l'idéal les deux techniques devraient être appliquées mais je ne connais
+pas de plateforme qui le fasse. Et vous les outils que vous utilisez ils ont
+fait quoi ?
 
 Voilà c'est un problème pas nouveau mais on en attendra certainement à nouveau
-parler. Dans qu'on lit une valeur du monde extérieur, celui-ci va s'arranger
-pour trouver un moyen de faire des choses "sympas". Les attaques algorithmiques
-permettent de varier un peu les plaisirs.
+parler. Dès qu'on lit une valeur du monde extérieur, celui-ci va s'arranger pour
+trouver un moyen de faire des choses "sympas". Les attaques algorithmiques
+permettent de varier un peu les plaisirs et permettent de s'intéroger longuement
+à chaque fois qu'on stock une valeur.
