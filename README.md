@@ -16,11 +16,11 @@ proposition de la JEP 180.
 
 ## Présentation des tables de hachage
 
-Une table de hachage est une implémentation du type du type abstrait tableau
-associatif. Un [tableau
-associatif](http://fr.wikipedia.org/wiki/Tableau_associatif) permet d'associer
-une clé à une ou plusieurs valeurs, on le nomme aussi parfois dictionnaire. Il
-fait partie des types abstraits les plus utilisé avec les listes.
+Une table de hachage est une implémentation du type abstrait tableau associatif.
+Un [tableau associatif](http://fr.wikipedia.org/wiki/Tableau_associatif) permet
+d'associer une clé à une ou plusieurs valeurs, on le nomme aussi parfois
+dictionnaire. Il fait partie des types abstraits les plus utilisé avec les
+listes.
 
 Une table de hachage est une implémentation particulière d'un tableau
 associatif. Elle est aussi la plus courante. Basiquement il s'agit d'un tableau
@@ -98,7 +98,7 @@ toutes les valeurs de cette case. Exemple du code de la méthode _put()_:
 On peut clairement y voir les étapes suivantes:
 
   - On calcule le `hash` de la clé, qui va déterminer la case `i`
-  - On itère sur toutes les clés présente dans la case `i` pour regarder sur une
+  - On itère sur toutes les clés présente dans la case `i` pour regarder si une
 correspond à `key`
     - Si oui, alors on remplace la valeur existante par `value`
     - Sinon, on ajoute un nouvel élément pour cette clé à la fin de la liste
@@ -253,13 +253,13 @@ alors de migrer vers une autre fonction de hachage:
 fonction de hachage non cryptographique, elle est rapide et fournie de bons
 résultats. En plus on peut l'initialiser avec une graine qui va conditionner la
 valeur de sortie. L'idée est donc de générer la graine à l'exécution. Il devient
-alors compliquer à l'utilisateur de générer des collisions car il a besoin de la
-graine et qu'il n'y a pas accès.
+alors compliqué pour l'utilisateur de générer des collisions car il a besoin de
+la graine et qu'il n'y a pas accès.
 
 Python utilise cette solution et décide de [changer sa fonction de hachage pour
 Murmur](http://bugs.python.org/issue13703).
 
-Java veut faire de même mais à un problème supplémentaire. La Javadoc de la
+Java veut faire de même mais a un problème supplémentaire. La Javadoc de la
 méthode `hashCode` de String documente l'implémentation sous-jacente:
 
 ~~~java
@@ -345,13 +345,13 @@ après...
 
 ## Attaques par la complexité (bis)
 
-Seulement voilà, entre temps quelques-uns ont commencés à creuser le problème.
+Seulement voilà, entre temps quelques-uns ont commencé à creuser le problème.
 Ils ont attaqué Murmur3 avec graine qui n'a pas
 [tenu](http://www.eng.tau.ac.il/%7Eyash/C2_039_Wool.pdf) très longtemps. Ca a
 d'ailleurs été [présenté au 29c3](http://www.youtube.com/watch?v=wGYj8fhhUVA).
 Dans les speakers on notera DJB, oui c'est le même.
 
-Rebelote, tous ceux qui sont passé à Murmur sont impactés ainsi que quelques
+Rebelote, tous ceux qui sont passés à Murmur sont impactés ainsi que quelques
 copains dont les fonctions ont aussi été cassé. C'est un peu mois trivial de
 générer des collisions avec Murmur mais le travail difficile a été fait pour
 nous. On n'a qu'à écrire le code...
@@ -380,15 +380,15 @@ Maintenant qu'est-ce qu'on fait ?
 
 En même temps qu'ils ont cassé Murmur avec graine, DJB et ses potes ont proposé
 une nouvelle fonction de hachage:
-[SipHash](http://en.wikipedia.org/wiki/SipHash). Elle est vendu comme étant
+[SipHash](http://en.wikipedia.org/wiki/SipHash). Elle est vendue comme étant
 aussi rapide que les précédentes mais résistante aux attaques par collisions.
 
 La plupart des plateformes ont migré vers SipHash. Python par exemple. Et comme
 on s'est déjà fait avoir une fois on en profite pour faire la [PEP
-456](legacy.python.org/dev/peps/pep-0456/) qui permet d'avoir des fonctions de
-hash interchangeable pour les chaine de caractères et tableaux d'octets. On
-bascule à SipHash mais comme on sait que ca risque de recommencer, on prévoit le
-coup...
+456](http://legacy.python.org/dev/peps/pep-0456/) qui permet d'avoir des
+fonctions de hash interchangeable pour les chaine de caractères et tableaux
+d'octets. On bascule à SipHash mais comme on sait que ca risque de recommencer,
+on prévoit le coup...
 
 Du côté de Java on a toujours le même problème avec `hashCode`, rechanger hash32
 fait prendre quelques risque aussi  et le patch initial étant "crado" on
@@ -412,21 +412,21 @@ Cette fois ci nous comparons le comportement normal d'OpenJDK 8 et Java 7u55
 ainsi que le comportement d'OpenJDK8 avec des collisions.
 
 Tout d'abord nous constatons que les performances dans le cas normal n'ont pas
-régressées. Ensuite nous voyons que contrairement à une solution qui vise a
-prévenir entièrement les collisions, l'utilisation d'arbre balancé à tout de
+régressé. Ensuite nous voyons que contrairement à une solution qui vise a
+prévenir entièrement les collisions, l'utilisation d'arbre balancé a tout de
 même un coût. Les opérations passent de $O(1)$ à $O(log(n))$. Cependant si on
 regarde les chiffres ce n'est pas dramatique. À 20 000 éléments nous sommes
 maintenant à ~10ms plutôt que ~1ms loin de la seconde initiale.
 
 Nous avons regardé le point de vue performance, cependant utiliser des arbres
-balancés à aussi un impact non négligeable sur la consommation mémoire. En effet
+balancés a aussi un impact non négligeable sur la consommation mémoire. En effet
 au lieu d'avoir à stocker un bête pointeur sur l'élément suivant, on se retrouve
 avec quatre pointeurs et un booléen. Ce qui pourrait faire exploser la
 consommation mémoire. Cependant par défaut on utilise toujours une liste
 chainée. Quand le nombre de collisions augmente dans une case et dépasse un
-seuil on converti tout ou une parti de la liste en arbre balancé pour optimiser
+seuil on convertit tout ou une parti de la liste en arbre balancé pour optimiser
 le ratio consommation mémoire/performance. Cette technique est appliqué à chaque
-feuille de l'arbre. On démarre avec une liste, puis on converti la feuille en
+feuille de l'arbre. On démarre avec une liste, puis on convertit la feuille en
 arbre quand elle devient trop grande. Quand on supprime des éléments on peut
 rebasculer vers une liste chainée. Les seuils de conversion étant respectivement
 à 8 et 6 éléments.
@@ -461,22 +461,22 @@ améliorer le pire cas. Changer de fonction de hachage pour les String étant
 compliqué on peut comprendre ce choix. Ils ont fait le pari que les performances
 offertes par les arbres balancés suffiront à se protéger et à offrir une bonne
 robustesse aux mauvaises fonctions de hachage. En pratique, au pire cas on
-observe un ralentissement constant de ~10x quelque soit la taille de la
+observe un ralentissement constant de ~10x quelle que soit la taille de la
 collection.
 
 De l'autre côté beaucoup de plateformes ont changé de fonction de hachage pour
-éviter le pire cas mais n'ont pas chercher à l'ameillorer et sont restés aux
+éviter le pire cas mais n'ont pas cherché à l'améliorer et sont restés aux
 listes chainées. Ils se protègent donc des dénis de service selon les
-connaissances actuelles mais ne cherchent pas à se protéger pour le future ni à
+connaissances actuelles mais ne cherchent pas à se protéger pour le futur ni à
 offrir une réponse performante aux fonctions de hachage qui pourraient être
-légèrement biaisés pour certains autres type de données car implémentées par
+légèrement biaisées pour certains autres types de données car implémentées par
 l'utilisateur.
 
 Dans l'idéal les deux techniques devraient être appliquées mais je ne connais
 pas de plateforme qui le fasse. Et vous les outils que vous utilisez ils ont
 fait quoi ?
 
-Voilà c'est un problème pas nouveau mais on en attendra certainement à nouveau
+Voilà c'est un problème pas nouveau mais on en entendra certainement à nouveau
 parler. Dès qu'on lit une valeur du monde extérieur, celui-ci va s'arranger pour
 trouver un moyen de faire des choses "sympas". Les attaques algorithmiques
 permettent de varier un peu les plaisirs et permettent de s'intéroger longuement
